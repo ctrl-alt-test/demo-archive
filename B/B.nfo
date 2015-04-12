@@ -1,0 +1,60 @@
+
+        _____  _        _        __  _    _    _____             _
+       / ___/_/ |_   __| \      /  || \ _/ |_ (_. ,_)___  ___  _/ |_
+      | /   (   _/|`'_/| | __  / 4 || |(   _/__ | | / _ \/ __)(   _/
+      | \____| |_ | |  | |(__)/ _  || | | |_(__)| ||  __/\__ \ | |_
+       \____/\___)|_|  |_\   /_/ |_||_\ \___)   |_| \___/(___/ \___)
+
+
+
+                               B - Incubation
+
+         A 64kB PC intro presented at Evoke 2010 by Ctrl-Alt-Test
+
+
+      Code:
+
+          Laurent ~ LLB ~ Le Brun
+          Julien ~ Zavie ~ Guertault
+
+      Additional code:
+
+        Antoine ~ Nicuvëo ~ Leblanc
+           Loïc ~ Tarmil ~ Denuzière
+
+      Music:
+
+        Pierre ~ Cyborg Jeff ~ Martin
+
+
+
+     Hi Folks,
+
+
+      This is  our first  64kB, and our  first demo actually.  We hope
+      you will enjoy it.
+
+
+      The  intro  is  expected  to  run fine  on  OpenGL  2.0  capable
+      hardware. Though,  for some reason we  are yet to  nail, we have
+      been experiencing  some extremely  low framerates on  old NVidia
+      cards. Low end laptop chipset will likely not work either.
+
+      This  production is based  on IQ^RGBA's  64kB framwork  and uses
+      kb^FR's V2. Thanks for those great tools!
+
+
+      We would also like to  thank the Evoke crew, the Breakpoint team
+      for  the  awesome  final  party  on  Easter,  and  a  number  of
+      demogroups for  their great work  we enjoy or just  because they
+      are  some cool  guys, including  but not  limited to  (in broken
+      random order):  Adinpsz, ASD, Conspiracy,  FRequency, Fairlight,
+      Farbrausch, lft,  Nuance, Popsy Team,  RGBA, TBC, Trolls  In The
+      Shadows...
+
+      Please  keep it  up the  good  work; please  continue making  us
+      dream.
+
+      At last, thank *you* for watching our stuff.
+
+EOF

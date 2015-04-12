@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: framework64k - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\iq_rgba\LOCALS~1\Temp\RSP45.tmp" with contents
+[
+/nologo /MLd /W3 /WX /GX /Zi /Od /D "A32BITS" /D "WINDOWS" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "DEBUG" /FAc /Fa"bin/v6/Debug/" /FR"bin/v6/Debug/" /Fo"bin/v6/Debug/" /Fd"bin/v6/Debug/" /FD /c 
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\_windows\x86\msys_libcOS.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\_windows\main_deb.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\_windows\msys_debugOS.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\_windows\msys_fontOS.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\_windows\msys_mmallocOS.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\_windows\msys_soundOS.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\_windows\msys_threadOS.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\_windows\msys_timerOS.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\msys.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\msys_glext.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\msys_malloc.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\sys\msys_random.cpp"
+"D:\Documents and Settings\iq_rgba\Desktop\framework64k\src\intro.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\iq_rgba\LOCALS~1\Temp\RSP45.tmp" 
+Creating temporary file "D:\DOCUME~1\iq_rgba\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib opengl32.lib winmm.lib glu32.lib /nologo /subsystem:windows /profile /map:"../exe/introexe_deb.map" /debug /machine:I386 /out:"exe\intro_deb_v6.exe" 
+".\bin\v6\Debug\msys_libcOS.obj"
+".\bin\v6\Debug\main_deb.obj"
+".\bin\v6\Debug\msys_debugOS.obj"
+".\bin\v6\Debug\msys_fontOS.obj"
+".\bin\v6\Debug\msys_mmallocOS.obj"
+".\bin\v6\Debug\msys_soundOS.obj"
+".\bin\v6\Debug\msys_threadOS.obj"
+".\bin\v6\Debug\msys_timerOS.obj"
+".\bin\v6\Debug\msys.obj"
+".\bin\v6\Debug\msys_glext.obj"
+".\bin\v6\Debug\msys_malloc.obj"
+".\bin\v6\Debug\msys_random.obj"
+".\bin\v6\Debug\intro.obj"
+]
+Creating command line "link.exe @D:\DOCUME~1\iq_rgba\LOCALS~1\Temp\RSP46.tmp"
+<h3>Output Window</h3>
+Compiling...
+msys_libcOS.cpp
+main_deb.cpp
+msys_debugOS.cpp
+msys_fontOS.cpp
+msys_mmallocOS.cpp
+msys_soundOS.cpp
+msys_threadOS.cpp
+msys_timerOS.cpp
+msys.cpp
+msys_glext.cpp
+msys_malloc.cpp
+msys_random.cpp
+intro.cpp
+Generating Code...
+Linking...
+Creating temporary file "D:\DOCUME~1\iq_rgba\LOCALS~1\Temp\RSP48.tmp" with contents
+[
+/nologo /o"bin/v6/Debug/framework64k.bsc" 
+".\bin\v6\Debug\msys_libcOS.sbr"
+".\bin\v6\Debug\main_deb.sbr"
+".\bin\v6\Debug\msys_debugOS.sbr"
+".\bin\v6\Debug\msys_fontOS.sbr"
+".\bin\v6\Debug\msys_mmallocOS.sbr"
+".\bin\v6\Debug\msys_soundOS.sbr"
+".\bin\v6\Debug\msys_threadOS.sbr"
+".\bin\v6\Debug\msys_timerOS.sbr"
+".\bin\v6\Debug\msys.sbr"
+".\bin\v6\Debug\msys_glext.sbr"
+".\bin\v6\Debug\msys_malloc.sbr"
+".\bin\v6\Debug\msys_random.sbr"
+".\bin\v6\Debug\intro.sbr"]
+Creating command line "bscmake.exe @D:\DOCUME~1\iq_rgba\LOCALS~1\Temp\RSP48.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+intro_deb_v6.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

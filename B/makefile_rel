@@ -1,0 +1,77 @@
+include makefile.common
+
+EXENAME=main$(NID)_rel.exe
+SRCDIR=src/
+BINDIR=bin/$(OS)/release/
+EXEDIR=exe/
+
+CFLAGS += -DLOADBAR
+
+OBJS=$(BINDIR)intro.o $(BINDIR)msys_glext.o $(BINDIR)msys_random.cpp.o \
+     $(BINDIR)msys_malloc.o $(BINDIR)msys_threadOS.o $(BINDIR)msys_mmallocOS.o \
+     $(BINDIR)msys_fontOS.o $(BINDIR)msys_timerOS.o $(BINDIR)msys_soundOS.o \
+     $(BINDIR)msys_libcOS.o $(BINDIR)main_rel.o
+
+################################################################################
+
+$(EXENAME): $(OBJS)
+	$(CC) $(OBJS) $(LIBS) $(SYSLIBS) $(EFLAGS) -o $(EXEDIR)$(EXENAME)
+	strip -s -R .comment -R .gnu.version $(EXEDIR)$(EXENAME)
+	sstrip $(EXEDIR)$(EXENAME)
+	ls -l $(EXEDIR)$(EXENAME)
+	upx --brute $(EXEDIR)$(EXENAME)
+	sstrip $(EXEDIR)$(EXENAME)
+	ls -l $(EXEDIR)$(EXENAME)
+
+#--- intro -------------
+
+$(BINDIR)intro.o: $(SRCDIR)intro.cpp
+	$(CC) -c $(SRCDIR)intro.cpp $(CFLAGS) -o$@
+
+#--- sys -------------
+
+$(BINDIR)msys_glext.o: $(SRCDIR)sys/msys_glext.cpp
+	$(CC) -c $(SRCDIR)sys/msys_glext.cpp $(CFLAGS) -o$@
+
+$(BINDIR)msys_random.o: $(SRCDIR)sys/msys_random.cpp
+	$(CC) -c $(SRCDIR)sys/msys_random.cpp $(CFLAGS) -o$@
+
+$(BINDIR)msys_malloc.o: $(SRCDIR)sys/$(OS)/msys_malloc.cpp
+	$(CC) -c $(SRCDIR)sys/$(OS)/msys_malloc.cpp $(CFLAGS) -o$@
+
+$(BINDIR)msys_threadOS.o: $(SRCDIR)sys/$(OS)/msys_threadOS.cpp
+	$(CC) -c $(SRCDIR)sys/$(OS)/msys_threadOS.cpp $(CFLAGS) -o$@
+
+$(BINDIR)msys_mmallocOS.o: $(SRCDIR)sys/$(OS)/msys_mmallocOS.cpp
+	$(CC) -c $(SRCDIR)sys/$(OS)/msys_mmallocOS.cpp $(CFLAGS) -o$@
+
+$(BINDIR)msys_fontOS.o: $(SRCDIR)sys/$(OS)/msys_fontOS.cpp
+	$(CC) -c $(SRCDIR)sys/$(OS)/msys_fontOS.cpp $(CFLAGS) -o$@
+
+$(BINDIR)msys_timerOS.o: $(SRCDIR)sys/$(OS)/msys_timerOS.cpp
+	$(CC) -c $(SRCDIR)sys/$(OS)/msys_timerOS.cpp $(CFLAGS) -o$@
+
+$(BINDIR)msys_soundOS.o: $(SRCDIR)sys/$(OS)/msys_soundOS.cpp
+	$(CC) -c $(SRCDIR)sys/$(OS)/msys_soundOS.cpp $(CFLAGS) -o$@
+
+$(BINDIR)msys_libcOS.o: $(SRCDIR)sys/$(OS)/msys_libcOS.cpp
+	$(CC) -c $(SRCDIR)sys/$(OS)/msys_libcOS.cpp $(CFLAGS) -o$@
+
+$(BINDIR)main_rel.o: $(SRCDIR)sys/$(OS)/main_rel.cpp
+	$(CC) -c $(SRCDIR)sys/$(OS)/main_rel.cpp $(CFLAGS) -o$@
+
+
+################################################################################
+
+clean:
+	rm -rf $(BINDIR)*.o
+	rm -rf $(EXEDIR)core
+	rm $(EXEDIR)debug.txt
+	clear
+
+all:
+	rm -rf $(BINDIR)*.o
+	rm -rf $(EXEDIR)core
+	rm $(EXEDIR)debug.txt
+	clear
+	gmake

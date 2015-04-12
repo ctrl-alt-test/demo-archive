@@ -1,0 +1,60 @@
+// Chute du cube
+{    0, -22.549990f,  58.350021f, 20.999983f},
+
+// Cube sur le premier tapis
+{ 9800, 7.150156f, 33.150017f, 18.049957f},
+
+// Passage au deuxième tapis
+{ 4000, 51.600109f, 21.250029f, -38.499985f},
+
+// Contre plongée en ralenti
+{ 8200, -0.649888f, 13.900033f, -47.599983f},
+
+// Cube sur le tapis de test, plan en plongée
+{ 8000, 21.799986f, 25.949995f, -2.599996f},
+
+// Plan en travers du cube sur le tapis de test
+{ 6000, -58.299992f, 41.899990f, -24.200020f},
+
+// Approche de la validation
+{ 2500, 62.649944f, 30.300003f, 28.799982f},
+
+// Validation d'un cube qui échoue
+{ 3000, 31.999992f, 5.799996f, 10.700012f},
+
+// Cube à la fosse
+{ 3000, -17.100004f, 11.000006f, 10.900018f},
+
+// Notre cube à la validation
+{ 2500, 15.449976f, 5.249987f, -18.150024f},
+
+// Le cube validé
+{38000, 6.299987f, 57.899998f, -7.150000f},
+
+// Cubes terminés
+{ 2500, 35.049995f, 25.550016f, 30.749994f},
+
+// Premier plan de caisses
+{ 5500, -20.699995f, 18.349977f, 28.799986f},
+// ou
+//   { -18.150015f, 10.449980f, 9.949995f, 1.000000f }
+
+// Deuxième plan de caisses
+{ 2000, -20.600002f, 7.999983f, 48.349991f},
+
+// Troisième plan de caisses
+{ 2000, -28.449944f, 9.099998f, 19.549978f},
+
+// Chorégraphie en cercle
+{ 2000, 12.600002f, 11.049994f, 39.600010f},
+
+// Plan Black Mesa
+{ 3000, -28.449944f, 9.099998f, 19.549978f},
+
+// Chorégraphie en croisements
+{ 3000, -28.449944f, 9.099998f, 19.549978f},
+
+// Borne de fin
+{ 9500, 0, 0, 0},
+// -----------------------------------------------------------------
+// Total : 114,5 s

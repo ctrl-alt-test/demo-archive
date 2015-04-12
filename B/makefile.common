@@ -1,0 +1,154 @@
+# MACHINE:      PC, FUEL, ONYX3, ONYX4, ALTIX, IBM (power5), POWERPC
+# OSNAME:       MSDOS, WINDOWS, IRIX, LINUX, MACOS
+# ENDIANNESS:   BIGENDIAN, LITTLEENDIAN
+# ARCHITECTURE: A32BITS, A64BITS
+# SIMD:         SSE, ALTIVEC, DIRECT
+
+MACHINE = PC
+OSNAME = LINUX
+ENDIANNESS = LITTLEENDIAN
+ARCHITECTURE = A32BITS
+SIMD = SSE
+
+
+#--------------------------------------------------------------------------------------------------------
+
+ifeq ($(SIMD),DIRECT)
+SIMDIR = _direct
+endif
+ifeq ($(SIMD),ALTIVEC)
+SIMDIR = _altivec
+endif
+ifeq ($(SIMD),SSE)
+SIMDIR = _sse
+endif
+
+#- - - - - - - - - - - - - - - - - - - - - - 
+
+ifeq ($(OSNAME),IRIX)
+CC = /bin/CC
+#LL = /bin/CC
+LL = ar
+MM = gmake
+CFLAGS = -c -O1 -64
+#LFLAGS = -ar
+LFLAGS = -r
+EFLAGS = -64
+SOFLAGS= -shared -pthread
+SYSLIBS= -lpthread -lm -lX11 -lGL
+NID = _irix
+
+endif
+
+#- - - - - - - - - - - - - - - - - - - - - - 
+
+ifeq ($(OSNAME),WINDOWS)
+CC = cl
+LL = lib
+CFLAGS= /nologo /Zp4 /MT /W3 /WX /O2 /Ob2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FD /c
+LFLAGS =
+EFLAGS =
+MM = nmake
+NID = _win32
+endif
+
+#- - - - - - - - - - - - - - - - - - - - - - 
+
+ifeq ($(OSNAME),MACOS)
+CC = 
+LL = ar
+MM = gmake
+CFLAGS = -c -O1
+LFLAGS = -r
+EFLAGS = 
+SOFLAGS= 
+SYSLIBS= -lpthread -lm -lX11 -lGL
+NID = _macos
+endif
+
+#- - - - - - - - - - - - - - - - - - - - - - 
+
+ifeq ($(OSNAME),LINUX)
+
+
+   ifeq ($(MACHINE),PC)
+   CC=g++
+   LL=ar
+   MM = make
+   CFLAGS=-O2 -fPIC -DLITTLEENDIAN -DPC -DMULTIPROCESSOR -DLINUX
+   CFLAGS+=-fomit-frame-pointer -fno-rtti
+   
+   #Commented due to size constraints
+   #-finline-functions
+   #CFLAGS+=-funroll-all-loops 
+   CFLAGS+=-fno-math-errno -ffast-math
+   CFLAGS+=-fexpensive-optimizations -msse3 -march=nocona -fno-unwind-tables -fno-exceptions
+   SOFLAGS= -shared -rdynamic -pthread
+   LFLAGS = -r
+   EFLAGS = -nostartfiles -nodefaultlibs
+   NID = _linux_pc
+     ifeq ($(ARCHITECTURE),A32BITS)
+     SYSLIBS= -L/usr/X11R6/lib/ -lpthread -lX11 -lGL -lXext 
+     else
+     SYSLIBS= -L/usr/X11R6/lib64/ -lpthread -lX11 -lGL -lXext
+     endif
+   endif
+
+   ifeq ($(MACHINE),ALTIX)
+   #CC=g++
+   #CC=/opt/intel_cc_80/bin/icpc
+   CC=icpc
+   LL = ar
+   MM = gmake
+   CFLAGS= -O3 -fno-rtti -fno-alias
+   SOFLAGS= -Bsymbolic -shared -pthread
+   LFLAGS = -r
+   EFLAGS = -static-libcxa
+   SYSLIBS= -L/usr/X11R6/lib/ -lpthread -ldl -lm -lX11 -lGL
+   #SYSLIBS= -L/usr/X11R6/lib/ -lpthread /usr/lib/libdl.so -lm -lX11 -lGL
+   #SYSLIBS= -L/usr/X11R6/lib/ -lpthread /usr/lib/libltdl.a -lm -lX11 -lGL
+   #SYSLIBS= -L/usr/X11R6/lib/ -lpthread /usr/lib/libdl.a /usr/lib/libc.a -lm -lX11 -lGL
+   #SYSLIBS= -L/usr/X11R6/lib/ -lpthread /usr/lib/libdl.a  /usr/lib/libc_p.a -lm -lX11 -lGL
+   NID = _linux_altix
+   endif
+
+   ifeq ($(MACHINE),IBM)
+   #CC=/opt/ibmcmp/vacpp/7.0/bin/xlc++
+   CC=g++
+   LL=ar
+   MM = make
+   CFLAGS=-m64 -O3 -mcpu=power5 -mtune=power5 -DBIGENDIAN -DIBM -DMULTIPROCESSOR -DLINUX
+   CFLAGS+=-fomit-frame-pointer -fno-rtti -finline-functions -funroll-all-loops -fno-math-errno
+   CFLAGS+=-fexpensive-optimizations
+   #CFLAGS=-q64 -O4 -s -qarch=pwr5 -qfloat=fltint -qipa -DBIGENDIAN -DIBM -DMULTIPROCESSOR -DLINUX
+   LFLAGS = -r
+   EFLAGS = -m64
+   #EFLAGS = -q64
+   NID = _linux_ibm
+   SYSLIBS= -L/usr/X11R6/lib64/ -lpthread -lm -lX11 -lGL
+   PLGLIBS= -L/usr/X11R6/lib64/ -lpthread -lm
+   SOFLAGS= -Bsymbolic -shared -pthread -m64
+   #SOFLAGS= -qmkshrobj  -pthread -q64
+   endif
+
+endif
+
+#--------------------------------------------------------------------------------------------------------
+
+ifeq ($(OSNAME),MSDOS)
+OS=_msdos
+endif
+ifeq ($(OSNAME),IRIX)
+OS=_irix
+endif
+ifeq ($(OSNAME),LINUX)
+OS=_linux
+endif
+ifeq ($(OSNAME),WINDOWS)
+OS=_win32
+endif
+
+#--------------------------------------
+
+
+CFLAGS += -D$(MACHINE) -D$(OSNAME) -D$(ENDIANNESS) -D$(ARCHITECTURE) -D$(SIMD)
