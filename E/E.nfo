@@ -1,0 +1,48 @@
+
+        _____  _        _        __  _    _    _____             _
+       / ___/_/ |_   __| \      /  || \ _/ |_ (_. ,_)___  ___  _/ |_
+      | /   (   _/|`'_/| | __  / 4 || |(   _/__ | | / _ \/ __)(   _/
+      | \____| |_ | |  | |(__)/ _  || | | |_(__)| ||  __/\__ \ | |_
+       \____/\___)|_|  |_\   /_/ |_||_\ \___)   |_| \___/(___/ \___)
+
+
+
+                               E - Departure
+
+         A 64kB PC intro presented at tUM 2010 by Ctrl-Alt-Test
+
+
+      Music:
+
+         Pierre ~ Cyborg Jeff ~ Martin
+
+      Code:
+
+          Julien ~ Zavie ~ Guertault
+          Laurent ~ LLB ~ Le Brun
+
+
+
+     Dear all,
+
+
+      We wholeheartedly  wish you  a merry Christmas  and a  happy New
+      Year!
+
+
+      Please enjoy this 64kB intro  (well, 38kB it turns out), written
+      for the music Cyborg Jeff  composed. It was done rather quickly,
+      trying  to focus  more on  the fun  making it  while (hopefully)
+      improving things like rendering quality and synchronization. You
+      could say this is our boring-3D-fly-by attempt.
+
+      The intro requires OpenGL 2.1  capable hardware, and it is based
+      on IQ^RGBA's 64kB framework while it uses kb^FR's V2. Thanks for
+      those  great  tools! Without  them  we  would  be still  writing
+      something probably not as clever.
+
+
+      Our  thanks and  cheers  also go  to  Traction, Elude,  Adinpsz,
+      FRequency, Popsy Team, Still and Approximate.
+
+EOF

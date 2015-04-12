@@ -1,0 +1,222 @@
+CC=/usr/bin/gcc
+
+OS=_linux
+FLAGS=-g0 -O2 -DLINUX 
+#LFLAGS = -DLOADBAR -DNDEBUG
+FLAGS += -DLOADBAR -I/usr/share/doc/nvidia-glx-dev/include
+
+SYSLIBS= -L/usr/X11R6/lib/ -lpthread -lX11 -lGLU -lGL #-lm  -nodefaultlibs
+
+EXENAME=linux_main_rel.exe
+SRCDIR=src/
+BINDIR=bin/release/
+EXEDIR=exe/
+
+
+
+OBJS=$(BINDIR)fade.o $(BINDIR)plastic.o $(BINDIR)ffxmngr.o \
+     $(BINDIR)g_edges.o $(BINDIR)generate.o $(BINDIR)g_rmesh.o \
+     $(BINDIR)g_modif.o $(BINDIR)g_prims.o $(BINDIR)g_qmesh.o \
+     $(BINDIR)color.o $(BINDIR)funcs.o $(BINDIR)textgen.o $(BINDIR)utils.o \
+     $(BINDIR)ext.o $(BINDIR)m3d.o $(BINDIR)s3d.o $(BINDIR)textures.o \
+     $(BINDIR)math3d.o $(BINDIR)shaders.o $(BINDIR)spline.o \
+     $(BINDIR)obj_qdata.o $(BINDIR)scn_code.o $(BINDIR)scn_data.o \
+     $(BINDIR)sha_data.o $(BINDIR)spl_data.o $(BINDIR)tex_code.o \
+     $(BINDIR)obj_lamp.o $(BINDIR)obj_stone.o $(BINDIR)obj_techno.o \
+     $(BINDIR)obj_wax.o \
+     $(BINDIR)intro.o \
+     $(BINDIR)gpms.o $(BINDIR)midi.o $(BINDIR)ifx_R66.o $(BINDIR)mfile.o \
+     $(BINDIR)i_absynth.o $(BINDIR)ih.o $(BINDIR)i_steampipe.o \
+     $(BINDIR)mrand.o $(BINDIR)mmath.o \
+     $(BINDIR)mmalloc.o $(BINDIR)font.o $(BINDIR)player.o $(BINDIR)oss_out.o \
+     $(BINDIR)main_rel.o
+
+################################################################################
+
+
+
+$(EXENAME): $(EXEDIR) $(BINDIR) $(OBJS)
+	$(CC) $(OBJS) $(SYSLIBS) $(LFLAGS) -o $(EXEDIR)$(EXENAME)
+	strip -R .comment -R .note.ABI-tag -R .gnu.version -R .rela.dyn -R .eh_frame_hdr -R .eh_frame -R .dtors -R .jcr -s $(EXEDIR)$(EXENAME)
+
+#$(BINDIR)main.o: $(SRCDIR)$(OS)/main.c
+#	$(CC) -c $(SRCDIR)$(OS)/main.c $(FLAGS) -o$@
+
+#--- ffx -------------
+
+$(BINDIR)fade.o: $(SRCDIR)ffx/fade.c
+	$(CC) -c $(SRCDIR)ffx/fade.c $(FLAGS) -o$@
+
+$(BINDIR)plastic.o: $(SRCDIR)ffx/plastic.c
+	$(CC) -c $(SRCDIR)ffx/plastic.c $(FLAGS) -o$@
+
+$(BINDIR)ffxmngr.o: $(SRCDIR)ffx/ffxmngr.c
+	$(CC) -c $(SRCDIR)ffx/ffxmngr.c $(FLAGS) -o$@
+
+#--- g3d -------------
+
+$(BINDIR)g_edges.o : $(SRCDIR)g3d/g_edges.c
+	$(CC) -c $(SRCDIR)g3d/g_edges.c $(FLAGS) -o$@
+
+$(BINDIR)generate.o : $(SRCDIR)g3d/generate.c
+	$(CC) -c $(SRCDIR)g3d/generate.c $(FLAGS) -o$@
+
+$(BINDIR)g_modif.o : $(SRCDIR)g3d/g_modif.c
+	$(CC) -c $(SRCDIR)g3d/g_modif.c $(FLAGS) -o$@
+
+$(BINDIR)g_prims.o : $(SRCDIR)g3d/g_prims.c
+	$(CC) -c $(SRCDIR)g3d/g_prims.c $(FLAGS) -o$@
+
+$(BINDIR)g_qmesh.o : $(SRCDIR)g3d/g_qmesh.c
+	$(CC) -c $(SRCDIR)g3d/g_qmesh.c $(FLAGS) -o$@
+
+$(BINDIR)g_rmesh.o : $(SRCDIR)g3d/g_rmesh.c
+	$(CC) -c $(SRCDIR)g3d/g_rmesh.c $(FLAGS) -o$@
+	
+#--- gfx -------------
+
+$(BINDIR)color.o : $(SRCDIR)gfx/color.c
+	$(CC) -c $(SRCDIR)gfx/color.c $(FLAGS) -o$@
+
+$(BINDIR)funcs.o : $(SRCDIR)gfx/funcs.c
+	$(CC) -c $(SRCDIR)gfx/funcs.c $(FLAGS) -o$@
+
+$(BINDIR)textgen.o : $(SRCDIR)gfx/textgen.c
+	$(CC) -c $(SRCDIR)gfx/textgen.c $(FLAGS) -o$@
+
+$(BINDIR)utils.o : $(SRCDIR)gfx/utils.c
+	$(CC) -c $(SRCDIR)gfx/utils.c $(FLAGS) -o$@
+
+#--- m3d -------------
+
+$(BINDIR)ext.o : $(SRCDIR)m3d/ext.c
+	$(CC) -c $(SRCDIR)m3d/ext.c $(FLAGS) -o$@
+
+$(BINDIR)m3d.o : $(SRCDIR)m3d/m3d.c
+	$(CC) -c $(SRCDIR)m3d/m3d.c $(FLAGS) -o$@
+
+$(BINDIR)math3d.o : $(SRCDIR)m3d/math3d.c
+	$(CC) -c $(SRCDIR)m3d/math3d.c $(FLAGS) -o$@
+
+$(BINDIR)s3d.o : $(SRCDIR)m3d/s3d.c
+	$(CC) -c $(SRCDIR)m3d/s3d.c $(FLAGS) -o$@
+
+$(BINDIR)shaders.o : $(SRCDIR)m3d/shaders.c
+	$(CC) -c $(SRCDIR)m3d/shaders.c $(FLAGS) -o$@
+
+$(BINDIR)textures.o : $(SRCDIR)m3d/textures.c
+	$(CC) -c $(SRCDIR)m3d/textures.c $(FLAGS) -o$@
+
+$(BINDIR)spline.o: $(SRCDIR)m3d/spline.c
+	$(CC) -c $(SRCDIR)m3d/spline.c $(FLAGS) -o$@
+	
+#--- scn -------------
+
+$(BINDIR)obj_qdata.o: $(SRCDIR)scn/obj_qdata.c
+	$(CC) -c $(SRCDIR)scn/obj_qdata.c $(FLAGS) -o$@
+
+$(BINDIR)scn_code.o: $(SRCDIR)scn/scn_code.c
+	$(CC) -c $(SRCDIR)scn/scn_code.c $(FLAGS) -o$@
+
+$(BINDIR)scn_data.o: $(SRCDIR)scn/scn_data.c
+	$(CC) -c $(SRCDIR)scn/scn_data.c $(FLAGS) -o$@
+
+$(BINDIR)sha_data.o: $(SRCDIR)scn/sha_data.c
+	$(CC) -c $(SRCDIR)scn/sha_data.c $(FLAGS) -o$@
+
+$(BINDIR)spl_data.o: $(SRCDIR)scn/spl_data.c
+	$(CC) -c $(SRCDIR)scn/spl_data.c $(FLAGS) -o$@
+	
+$(BINDIR)tex_code.o: $(SRCDIR)scn/tex_code.c
+	$(CC) -c $(SRCDIR)scn/tex_code.c $(FLAGS) -o$@
+
+#--- scn/obj -------------
+
+$(BINDIR)obj_lamp.o: $(SRCDIR)scn/obj/obj_lamp.c
+	$(CC) -c $(SRCDIR)scn/obj/obj_lamp.c $(FLAGS) -o$@
+
+$(BINDIR)obj_stone.o: $(SRCDIR)scn/obj/obj_stone.c
+	$(CC) -c $(SRCDIR)scn/obj/obj_stone.c $(FLAGS) -o$@
+
+$(BINDIR)obj_techno.o: $(SRCDIR)scn/obj/obj_techno.c
+	$(CC) -c $(SRCDIR)scn/obj/obj_techno.c $(FLAGS) -o$@
+
+$(BINDIR)obj_wax.o: $(SRCDIR)scn/obj/obj_wax.c
+	$(CC) -c $(SRCDIR)scn/obj/obj_wax.c $(FLAGS) -o$@
+#--- gpms -------------
+
+$(BINDIR)gpms.o: $(SRCDIR)gpms/gpms.c
+	$(CC) -c $(SRCDIR)gpms/gpms.c $(FLAGS) -o$@
+
+$(BINDIR)ifx_R66.o: $(SRCDIR)gpms/ifx_R66.c
+	$(CC) -c $(SRCDIR)gpms/ifx_R66.c $(FLAGS) -o$@
+
+$(BINDIR)mfile.o: $(SRCDIR)gpms/mfile.c
+	$(CC) -c $(SRCDIR)gpms/mfile.c $(FLAGS) -o$@
+
+$(BINDIR)i_absynth.o: $(SRCDIR)gpms/i_absynth.c
+	$(CC) -c $(SRCDIR)gpms/i_absynth.c $(FLAGS) -o$@
+
+$(BINDIR)ih.o: $(SRCDIR)gpms/ih.c
+	$(CC) -c $(SRCDIR)gpms/ih.c $(FLAGS) -o$@
+
+$(BINDIR)i_steampipe.o: $(SRCDIR)gpms/i_steampipe.c
+	$(CC) -c $(SRCDIR)gpms/i_steampipe.c $(FLAGS) -o$@
+
+$(BINDIR)midi.o: $(SRCDIR)gpms/midi.c
+	$(CC) -c $(SRCDIR)gpms/midi.c $(FLAGS) -o$@
+
+#--- intro -------------
+
+$(BINDIR)intro.o: $(SRCDIR)intro.c
+	$(CC) -c $(SRCDIR)intro.c $(FLAGS) -o$@
+            
+#--- sys -------------
+
+$(BINDIR)mrand.o: $(SRCDIR)sys/mrand.c
+	$(CC) -c $(SRCDIR)sys/mrand.c $(FLAGS) -o$@
+
+$(BINDIR)mdebug.o: $(SRCDIR)sys/mdebug.c
+	$(CC) -c $(SRCDIR)sys/mdebug.c $(FLAGS) -o$@
+
+$(BINDIR)mstdio.o: $(SRCDIR)sys/mstdio.c
+	$(CC) -c $(SRCDIR)sys/mstdio.c $(FLAGS) -o$@
+
+$(BINDIR)mmalloc.o: $(SRCDIR)sys/$(OS)/mmalloc.c
+	$(CC) -c $(SRCDIR)sys/$(OS)/mmalloc.c $(FLAGS) -o$@
+
+$(BINDIR)font.o: $(SRCDIR)sys/$(OS)/font.c
+	$(CC) -c $(SRCDIR)sys/$(OS)/font.c $(FLAGS) -o$@
+
+$(BINDIR)player.o: $(SRCDIR)sys/$(OS)/player.c
+	$(CC) -c $(SRCDIR)sys/$(OS)/player.c $(FLAGS) -o$@
+
+$(BINDIR)oss_out.o: $(SRCDIR)sys/$(OS)/oss_out.c
+	$(CC) -c $(SRCDIR)sys/$(OS)/oss_out.c $(FLAGS) -o$@
+
+$(BINDIR)main_rel.o: $(SRCDIR)sys/$(OS)/main_rel.c
+	$(CC) -c $(SRCDIR)sys/$(OS)/main_rel.c $(FLAGS) -o$@
+
+$(BINDIR)mmath.o: $(SRCDIR)sys/$(OS)/mmath.c
+	$(CC) -c $(SRCDIR)sys/$(OS)/mmath.c $(FLAGS) -o$@
+
+################################################################################
+
+$(BINDIR):
+	mkdir -p $(BINDIR)
+
+$(EXEDIR):
+	mkdir -p $(EXEDIR)
+
+clean:
+	rm -rf $(BINDIR)*.o
+	rm -rf $(EXEDIR)core
+	rm $(EXEDIR)debug.txt
+	clear
+
+all:
+	rm -rf $(BINDIR)*.o
+	rm -rf $(EXEDIR)core
+	rm $(EXEDIR)debug.txt
+	clear
+	gmake
