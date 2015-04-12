@@ -1,0 +1,44 @@
+
+        _____  _        _        __  _    _    _____             _
+       / ___/_/ |_   __| \      /  || \ _/ |_ (_. ,_)___  ___  _/ |_
+      | /   (   _/|`'_/| | __  / 4 || |(   _/__ | | / _ \/ __)(   _/
+      | \____| |_ | |  | |(__)/ _  || | | |_(__)| ||  __/\__ \ | |_
+       \____/\___)|_|  |_\   /_/ |_||_\ \___)   |_| \___/(___/ \___)
+
+
+
+                                  D - FOUR
+
+        A 4kB PC intro presented at Revision 2011 by Ctrl-Alt-Test
+
+
+      Code:
+
+         Julien ~ Zavie ~ Guertault
+
+      Music:
+
+         Pierre ~ Cyborg Jeff ~ Martin
+
+
+
+     Hello, scene!
+
+
+      For  our fourth  released production  we present  you, codenamed
+      with the fourth  letter, a four kilobytes intro  telling a story
+      made of four letter words.
+
+      This  intro  is expected  to  run  fine  on OpenGL  2.0  capable
+      hardware. Since it  is quite greedy with texture  memory, a good
+      128MB  to   512MB  is  recommended,  depending   on  the  screen
+      resolution.
+
+      The code  is built upon  IQ's 4k framework, and  uses Alcatraz's
+      4klang  and  TBC's  Crinkler.  All  those  tools  have  been  an
+      invaluable help to create this.
+
+      Our sincere  greetings are sent to  Conspiracy, Still, 4Sceners,
+      FRequency, Traction, BluFlame and Nuance.
+
+EOF

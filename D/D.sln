@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D", "i4k_OGL\i4k_OGL_vc2008.vcproj", "{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		DebugRelease|Win32 = DebugRelease|Win32
+		DebugRelease|x64 = DebugRelease|x64
+		FastRelease|Win32 = FastRelease|Win32
+		FastRelease|x64 = FastRelease|x64
+		Release 1024x768|Win32 = Release 1024x768|Win32
+		Release 1024x768|x64 = Release 1024x768|x64
+		Release 1280x1024|Win32 = Release 1280x1024|Win32
+		Release 1280x1024|x64 = Release 1280x1024|x64
+		Release 1280x720|Win32 = Release 1280x720|Win32
+		Release 1280x720|x64 = Release 1280x720|x64
+		Release 1280x800|Win32 = Release 1280x800|Win32
+		Release 1280x800|x64 = Release 1280x800|x64
+		Release 1920x1080|Win32 = Release 1920x1080|Win32
+		Release 1920x1080|x64 = Release 1920x1080|x64
+		Release 1920x1200|Win32 = Release 1920x1200|Win32
+		Release 1920x1200|x64 = Release 1920x1200|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Debug|Win32.Build.0 = Debug|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Debug|x64.ActiveCfg = Debug|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.DebugRelease|Win32.ActiveCfg = DebugRelease|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.DebugRelease|Win32.Build.0 = DebugRelease|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.DebugRelease|x64.ActiveCfg = DebugRelease|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.FastRelease|Win32.ActiveCfg = FastRelease|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.FastRelease|Win32.Build.0 = FastRelease|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.FastRelease|x64.ActiveCfg = FastRelease|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1024x768|Win32.ActiveCfg = Release 1024x768|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1024x768|Win32.Build.0 = Release 1024x768|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1024x768|x64.ActiveCfg = Release 1024x768|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1280x1024|Win32.ActiveCfg = Release 1280x1024|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1280x1024|Win32.Build.0 = Release 1280x1024|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1280x1024|x64.ActiveCfg = Release 1280x1024|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1280x720|Win32.ActiveCfg = Release 1280x720|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1280x720|Win32.Build.0 = Release 1280x720|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1280x720|x64.ActiveCfg = Release 1280x720|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1280x800|Win32.ActiveCfg = Release 1280x800|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1280x800|Win32.Build.0 = Release 1280x800|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1280x800|x64.ActiveCfg = Release 1280x1024|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1920x1080|Win32.ActiveCfg = Release 1920x1080|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1920x1080|Win32.Build.0 = Release 1920x1080|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1920x1080|x64.ActiveCfg = Release 1920x1080|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1920x1200|Win32.ActiveCfg = Release 1920x1200|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1920x1200|Win32.Build.0 = Release 1920x1200|Win32
+		{9A34639E-ABEC-46D9-89E4-5D8D873FDA66}.Release 1920x1200|x64.ActiveCfg = Release 1920x1200|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
