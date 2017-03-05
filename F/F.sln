@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F", "F.vcproj", "{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "picoc", "..\tools\picoc\picoc.vcproj", "{AE8967DB-EEFD-4738-B32F-E7F3E732D684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		DebugRelease|Win32 = DebugRelease|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}.Debug|Win32.Build.0 = Debug|Win32
+		{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}.DebugRelease|Win32.ActiveCfg = DebugRelease|Win32
+		{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}.DebugRelease|Win32.Build.0 = DebugRelease|Win32
+		{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}.Release|Win32.ActiveCfg = Release|Win32
+		{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}.Release|Win32.Build.0 = Release|Win32
+		{AE8967DB-EEFD-4738-B32F-E7F3E732D684}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE8967DB-EEFD-4738-B32F-E7F3E732D684}.Debug|Win32.Build.0 = Debug|Win32
+		{AE8967DB-EEFD-4738-B32F-E7F3E732D684}.DebugRelease|Win32.ActiveCfg = Debug|Win32
+		{AE8967DB-EEFD-4738-B32F-E7F3E732D684}.Release|Win32.ActiveCfg = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

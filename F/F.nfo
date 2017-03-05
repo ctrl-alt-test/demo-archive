@@ -1,0 +1,81 @@
+
+        _____  _        _        __  _    _    _____             _
+       / ___/_/ |_   __| \      /  || \ _/ |_ (_. ,_)___  ___  _/ |_
+      | /   (   _/|`'_/| | __  / 4 || |(   _/__ | | / _ \/ __)(   _/
+      | \____| |_ | |  | |(__)/ _  || | | |_(__)| ||  __/\__ \ | |_
+       \____/\___)|_|  |_\   /_/ |_||_\ \___)   |_| \___/(___/ \___)
+
+
+
+                            F - Felix's workshop
+
+         A 64kB PC intro presented at Revision 2012 by Ctrl-Alt-Test
+
+
+      Code and direction:
+
+          Laurent ~ LLB ~ Le Brun
+          Julien ~ Zavie ~ Guertault
+
+      Music:
+
+          Pierre ~ Cyborg Jeff ~ Martin
+
+
+
+     Happy Easter everyone,
+
+
+      We proudly  present our new  production, with the hope  you will
+      enjoy it.
+
+      This intro is expected to run  on a consumer PC with a Microsoft
+      Windows system as  long as it has up to  date drivers and OpenGL
+      2.1 capable  hardware. It  is based on  IQ's 64kB  framework and
+      uses V2 synthesizer. Final binary packing is done with kkrunchy.
+
+      The post-processing  is not optimized  and is very  demanding in
+      terms  of  fill rate,  so  you  will  need some  fast  hardware,
+      especially for high resolutions. We  may or may not address this
+      in a final version. A multicore computer is recommended to speed
+      up the loading phase.
+
+
+      We would like to thank:
+
+      	 - Proxy, for some design ideas
+         - Nicuveo, for the physics
+         - urs and las, for the bokeh
+         - IQ, for the 64k framework [1]
+         - kb, for V2 [2]
+         - Ryg, for kkrunchy [3]
+         - Zik Saleeba, for picoc, a C interpreter [4]
+         - Joel Davis, for Tweakval [5]
+         - Rubix, for Spleen, a spline editor
+         - XT95, for raymarching suggestions
+
+
+      Our kind greetings are sent to:
+
+          3LN,  Adinpsz, Conspiracy,  FRequency,  Mercury, Orb,  Popsy
+          Team,  Razor 1911,  Still
+
+
+      P.S.:
+
+         If  you are unfamilar  with demoscene,  this production  is a
+         64kB  intro,  which  means  it  consists  of  nothing  but  a
+         standalone executable file under 65536 bytes.
+
+
+      [1] http://www.iquilezles.org/www/material/framework64k/framework64k.htm
+      [2] http://1337haxorz.de/products.html#v2
+      [3] http://www.farbrausch.de/~fg/kkrunchy/
+      [4] http://code.google.com/p/picoc/
+      [5] http://www.gamedev.net/page/resources/_/technical/game-programming/tweakable-constants-r2731
+
+
+
+                            www.ctrl-alt-test.fr
+
+EOF

@@ -12,4 +12,5 @@ The links below provide additional information (including video captures):
 
 * [B-Incubation](http://www.ctrl-alt-test.fr/?page_id=94) (64kb)
 * [D-Four](http://www.ctrl-alt-test.fr/?page_id=315) (4kb)
-* [E-Departure](http://www.ctrl-alt-test.fr/?page_id=197)
+* [E-Departure](http://www.ctrl-alt-test.fr/?page_id=197) (64kb)
+* [F-Felix's Workshop](http://www.ctrl-alt-test.fr/?page_id=373) (64kb)

@@ -1,0 +1,855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6ab0c690-f9b7-4c7b-94f9-a3b69684a67f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;asm;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sys">
+      <UniqueIdentifier>{ba4d5c05-4b97-439d-9488-b6ecac62d5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sys\_windows">
+      <UniqueIdentifier>{115a0d21-2f90-45d4-8125-84a652c3a155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sys\_windows\x86">
+      <UniqueIdentifier>{40ef0658-9a1a-49ea-9154-714f536763a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sys\_windows\x64">
+      <UniqueIdentifier>{fadf3027-f617-4915-9852-317f9d962f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sys\_linux">
+      <UniqueIdentifier>{03d88c2c-5c8f-4ca8-9e8e-52f92917c175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sys\_macos">
+      <UniqueIdentifier>{63073afc-760f-451f-8041-295504810ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sys\_irix">
+      <UniqueIdentifier>{6dbd8b9e-e126-4641-a938-cd7ead83106e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\L-system">
+      <UniqueIdentifier>{6f034bed-99fd-4747-b96d-fdf2e90f89af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{f6f6bd76-1968-47be-a461-134a8cd688fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\OpenGL">
+      <UniqueIdentifier>{1546958a-b755-4502-a8fe-1e514dc5695b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\OpenGL\Shaders">
+      <UniqueIdentifier>{d61269ce-07ea-47cb-a5dc-7c170dd54e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\OpenGL\VBOs">
+      <UniqueIdentifier>{a999ac83-8c19-451b-97a6-8c8a1eb0de50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\OpenGL\FBOs">
+      <UniqueIdentifier>{4434fec4-3012-4a7d-827f-8c91ed21be98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Animation">
+      <UniqueIdentifier>{28e3b597-567a-4c39-95d5-4d797e1d9fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Post processing">
+      <UniqueIdentifier>{41deb876-f85f-45bf-afcc-ae8aa8358983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Textures">
+      <UniqueIdentifier>{cf648af3-65a8-4c4d-9fac-285782b6b929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering\Text">
+      <UniqueIdentifier>{245c7592-049c-41e3-8972-b805af28aede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Containers">
+      <UniqueIdentifier>{52205772-146b-42eb-a5b0-33f0e0812fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{3092b67a-04aa-4858-a48b-e64e035fad8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texgen">
+      <UniqueIdentifier>{8556b82e-843a-496b-bb8f-b6c300261993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialog">
+      <UniqueIdentifier>{4f2e3ec9-49dc-4566-afbb-e1a02d231a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algebra">
+      <UniqueIdentifier>{e684115a-ab07-4b11-aee3-399021dccbda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algebra\Interpolation">
+      <UniqueIdentifier>{68f179d0-0f1f-4426-a93f-52281ce737fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{92c30299-17ba-4298-b766-b3e024ccb96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{4b2cd176-44bf-4f95-8154-87c1a86c6425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools\Picoc">
+      <UniqueIdentifier>{a7207ecd-256f-4632-8dd6-473a0ce6d6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sequencing">
+      <UniqueIdentifier>{462ff1b3-aaed-42c7-8f76-58468973839b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physique">
+      <UniqueIdentifier>{820ab07d-dc53-4568-99ff-e92af36618c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test Scenes">
+      <UniqueIdentifier>{45d95a01-3cca-435e-ad49-6e703fa31240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Workshop">
+      <UniqueIdentifier>{dacc7731-bb4c-4484-818f-26e13a5a2459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{3550d36a-de67-41bf-98f8-1a0beb2ae56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Camera">
+      <UniqueIdentifier>{e4d6862f-33a1-4eb5-8c92-dbad2ab63796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Light">
+      <UniqueIdentifier>{7bc46e0b-b630-46f5-baf3-409930fa8159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Textures">
+      <UniqueIdentifier>{e18ac9ce-7f92-43ea-b0ff-8219f94f4775}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\basicTypes.hh">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\intro.hh">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\loading.hh">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timing.hh">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\events.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\glext.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_debug.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_font.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_forbidden.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_glext.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_libc.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_malloc.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_random.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_sound.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_thread.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_timer.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\msys_types.h">
+      <Filter>Source Files\Sys</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sys\_windows\x86\memcpy.h">
+      <Filter>Source Files\Sys\_windows\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lsystem.hh">
+      <Filter>Source Files\L-system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lsystemalphabet.hh">
+      <Filter>Source Files\L-system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.hh">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\light.hh">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\node.hh">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\node.hxx">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderable.hh">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderable.hxx">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderlist.hh">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderlist.hxx">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\transformation.hh">
+      <Filter>Source Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaderid.hh">
+      <Filter>Source Files\Rendering\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaderprogram.hh">
+      <Filter>Source Files\Rendering\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaderprogram.hxx">
+      <Filter>Source Files\Rendering\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shaders.hh">
+      <Filter>Source Files\Rendering\OpenGL\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vbodata.hh">
+      <Filter>Source Files\Rendering\OpenGL\VBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vbodata.hxx">
+      <Filter>Source Files\Rendering\OpenGL\VBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vboid.hh">
+      <Filter>Source Files\Rendering\OpenGL\VBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vbos.hh">
+      <Filter>Source Files\Rendering\OpenGL\VBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fbodata.hh">
+      <Filter>Source Files\Rendering\OpenGL\FBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fbodata.hxx">
+      <Filter>Source Files\Rendering\OpenGL\FBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fboid.hh">
+      <Filter>Source Files\Rendering\OpenGL\FBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fbos.hh">
+      <Filter>Source Files\Rendering\OpenGL\FBOs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim.hh">
+      <Filter>Source Files\Rendering\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anim.hxx">
+      <Filter>Source Files\Rendering\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\animid.hh">
+      <Filter>Source Files\Rendering\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\anims.hh">
+      <Filter>Source Files\Rendering\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lensorbs.hh">
+      <Filter>Source Files\Rendering\Post processing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\textureid.hh">
+      <Filter>Source Files\Rendering\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\textures.hh">
+      <Filter>Source Files\Rendering\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\textureunit.hh">
+      <Filter>Source Files\Rendering\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\textureunit.hxx">
+      <Filter>Source Files\Rendering\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="src\font.hh">
+      <Filter>Source Files\Rendering\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fontsticker.hh">
+      <Filter>Source Files\Rendering\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fontwrapper.hh">
+      <Filter>Source Files\Rendering\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array.hh">
+      <Filter>Source Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array.hxx">
+      <Filter>Source Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\queue.hh">
+      <Filter>Source Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="snd\libv2.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="snd\microphone.hh">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="snd\sound.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="snd\sync.hh">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="snd\v2mplayer.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texgen\noise.hh">
+      <Filter>Source Files\Texgen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texgen\texture.hh">
+      <Filter>Source Files\Texgen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dialog.hh">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dialog.hxx">
+      <Filter>Source Files\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="src\matrix.hh">
+      <Filter>Source Files\Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\quaternion.hh">
+      <Filter>Source Files\Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vector.hh">
+      <Filter>Source Files\Algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interpolation.hh">
+      <Filter>Source Files\Algebra\Interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spline.h">
+      <Filter>Source Files\Algebra\Interpolation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cube.hh">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh.hh">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\revolution.hh">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\revolutionfunctions.hh">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sceneimporter.hh">
+      <Filter>Source Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\files.hh">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minify.hh">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server.hh">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.hh">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tweakval.h">
+      <Filter>Source Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\picoc_binding.hh">
+      <Filter>Source Files\Tools\Picoc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timeline.hh">
+      <Filter>Source Files\Sequencing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\variable.hh">
+      <Filter>Source Files\Sequencing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\variables_gen.hh">
+      <Filter>Source Files\Sequencing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phy\constants.hh">
+      <Filter>Source Files\Physique</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phy\constraint.hh">
+      <Filter>Source Files\Physique</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phy\constraint.hxx">
+      <Filter>Source Files\Physique</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phy\gjk.hh">
+      <Filter>Source Files\Physique</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phy\particle.hh">
+      <Filter>Source Files\Physique</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phy\particle.hxx">
+      <Filter>Source Files\Physique</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phy\phy_mesh.hh">
+      <Filter>Source Files\Physique</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phy\world.hh">
+      <Filter>Source Files\Physique</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phy\world.hxx">
+      <Filter>Source Files\Physique</Filter>
+    </ClInclude>
+    <ClInclude Include="src\armchair.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bookshelf.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\carousel.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chess.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chimney.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\clock.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\desk.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\drum.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\harp.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lousianne.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\luxo.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\musicbox.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\orgalame.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pascontent.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puppet.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shelf.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stool.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\table.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\workshop.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\xylotrain.hh">
+      <Filter>Source Files\Workshop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\init.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loading.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\msys.cpp">
+      <Filter>Source Files\Sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\msys_glext.cpp">
+      <Filter>Source Files\Sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\msys_malloc.cpp">
+      <Filter>Source Files\Sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\msys_random.cpp">
+      <Filter>Source Files\Sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\main_deb.cpp">
+      <Filter>Source Files\Sys\_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\main_rel.cpp">
+      <Filter>Source Files\Sys\_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\msys_debugOS.cpp">
+      <Filter>Source Files\Sys\_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\msys_fontOS.cpp">
+      <Filter>Source Files\Sys\_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\msys_mmallocOS.cpp">
+      <Filter>Source Files\Sys\_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\msys_soundOS.cpp">
+      <Filter>Source Files\Sys\_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\msys_threadOS.cpp">
+      <Filter>Source Files\Sys\_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\msys_timerOS.cpp">
+      <Filter>Source Files\Sys\_windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\x86\memcpy.cpp">
+      <Filter>Source Files\Sys\_windows\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\x86\msys_libcOS.cpp">
+      <Filter>Source Files\Sys\_windows\x86</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\x64\msys_libcOS_deb.cpp">
+      <Filter>Source Files\Sys\_windows\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_windows\x64\msys_libcOS_rel.cpp">
+      <Filter>Source Files\Sys\_windows\x64</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_linux\main_deb.cpp">
+      <Filter>Source Files\Sys\_linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_linux\main_rel.cpp">
+      <Filter>Source Files\Sys\_linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_linux\msys_fontOS.cpp">
+      <Filter>Source Files\Sys\_linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_linux\msys_libcOS.cpp">
+      <Filter>Source Files\Sys\_linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_linux\msys_mallocOS.cpp">
+      <Filter>Source Files\Sys\_linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_linux\msys_math.cpp">
+      <Filter>Source Files\Sys\_linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_linux\msys_soundOS.cpp">
+      <Filter>Source Files\Sys\_linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_linux\msys_threadOS.cpp">
+      <Filter>Source Files\Sys\_linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sys\_linux\msys_timerOS.cpp">
+      <Filter>Source Files\Sys\_linux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lsystem.cc">
+      <Filter>Source Files\L-system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cc">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\light.cc">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\node.cc">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderable.cc">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderlist.cc">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\transformation.cc">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaderprogram.cc">
+      <Filter>Source Files\Rendering\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaders.cc">
+      <Filter>Source Files\Rendering\OpenGL\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vbodata.cc">
+      <Filter>Source Files\Rendering\OpenGL\VBOs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vbos.cc">
+      <Filter>Source Files\Rendering\OpenGL\VBOs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fbodata.cc">
+      <Filter>Source Files\Rendering\OpenGL\FBOs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fbos.cc">
+      <Filter>Source Files\Rendering\OpenGL\FBOs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\anims.cc">
+      <Filter>Source Files\Rendering\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lensorbs.cc">
+      <Filter>Source Files\Rendering\Post processing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\textures.cc">
+      <Filter>Source Files\Rendering\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\textureunit.cc">
+      <Filter>Source Files\Rendering\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font.cc">
+      <Filter>Source Files\Rendering\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fontsticker.cc">
+      <Filter>Source Files\Rendering\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fontwrapper.cc">
+      <Filter>Source Files\Rendering\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="snd\microphone.cc">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="snd\sound.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="snd\sync.cc">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="snd\v2mplayer.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texgen\noise.cc">
+      <Filter>Source Files\Texgen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texgen\texture.cc">
+      <Filter>Source Files\Texgen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dialog.cc">
+      <Filter>Source Files\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="src\matrix.cc">
+      <Filter>Source Files\Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quaternion.cc">
+      <Filter>Source Files\Algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interpolation.cc">
+      <Filter>Source Files\Algebra\Interpolation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spline.cpp">
+      <Filter>Source Files\Algebra\Interpolation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cube.cc">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh.cc">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\revolution.cc">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\revolutionfunctions.cc">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sceneimporter.cc">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug_controls.cc">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\files.cc">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minify.cc">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\server.cc">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb_image.cc">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tweakval.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\picoc_binding.cc">
+      <Filter>Source Files\Tools\Picoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\texgen\src\picoc_library.cc">
+      <Filter>Source Files\Tools\Picoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\texgen\src\picoc_platform.cc">
+      <Filter>Source Files\Tools\Picoc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timeline.cc">
+      <Filter>Source Files\Sequencing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\variable.cc">
+      <Filter>Source Files\Sequencing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\variables_gen.cc">
+      <Filter>Source Files\Sequencing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phy\constraint.cc">
+      <Filter>Source Files\Physique</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phy\gjk.cc">
+      <Filter>Source Files\Physique</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phy\particle.cc">
+      <Filter>Source Files\Physique</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phy\phy_mesh.cc">
+      <Filter>Source Files\Physique</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phy\world.cc">
+      <Filter>Source Files\Physique</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physic_test.cc">
+      <Filter>Source Files\Test Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\armchair.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bookshelf.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\carousel.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chess.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chimney.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clock.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\desk.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\drum.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\harp.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lousianne.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\luxo.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\musicbox.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\orgalame.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pascontent.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\puppet.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shelf.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stool.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\table.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\workshop.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xylotrain.cc">
+      <Filter>Source Files\Workshop</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\albedoTest.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\armchair.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\book.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\brick.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\bumpTest.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\clock.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\door.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\felix.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\flag.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\irisBokeh.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\lousianne.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\musicbox.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\painting.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\paper.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\pen.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\puppet.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\sky.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\specularTest.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\textureList.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\train.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\wall.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\wood.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="data\textures\woodB.cc">
+      <Filter>Data\Textures</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\camera\factory.txt">
+      <Filter>Data\Camera</Filter>
+    </Text>
+    <Text Include="data\light\factory.txt">
+      <Filter>Data\Light</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="src\sys\_windows\x64\msys_libcOS_rel_asm.asm">
+      <Filter>Source Files\Sys\_windows\x64</Filter>
+    </CustomBuild>
+    <CustomBuild Include="snd\tune.asm">
+      <Filter>Source Files\Sound</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\physic_test.hh">
+      <Filter>Source Files\Test Scenes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F.nfo" />
+  </ItemGroup>
+</Project>
