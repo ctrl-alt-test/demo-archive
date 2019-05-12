@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F", "F.vcproj", "{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F", "F.vcxproj", "{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "picoc", "..\tools\picoc\picoc.vcproj", "{AE8967DB-EEFD-4738-B32F-E7F3E732D684}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "picoc", "tools\picoc\picoc.vcproj", "{AE8967DB-EEFD-4738-B32F-E7F3E732D684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +27,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C3E8A31-9A36-40B1-9263-232314197347}
 	EndGlobalSection
 EndGlobal

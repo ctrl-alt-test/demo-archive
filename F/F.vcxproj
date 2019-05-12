@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="DebugRelease|Win32">
       <Configuration>DebugRelease</Configuration>
@@ -29,40 +29,39 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{91B645FD-82AF-44D4-9D0A-CD74BC0CAC3C}</ProjectGuid>
     <RootNamespace>F</RootNamespace>
-    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -95,56 +94,35 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+    <_ProjectFileVersion>16.0.28707.177</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>.\exe\</OutDir>
-    <IntDir>.\bin\v8\x86\Debug\</IntDir>
+    <OutDir>.\bin/v8/x86/Debug\</OutDir>
+    <IntDir>.\bin/v8/x86/Debug\</IntDir>
     <LinkIncremental>true</LinkIncremental>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <CodeAnalysisRules />
-    <CodeAnalysisRuleAssemblies />
-    <TargetName>intro_deb_v8_x86</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\bin/v8/x86/Release\</OutDir>
     <IntDir>.\bin/v8/x86/Release\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>false</GenerateManifest>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <CodeAnalysisRules />
-    <CodeAnalysisRuleAssemblies />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">
     <OutDir>.\bin/v8/x86/DebugRelease\</OutDir>
     <IntDir>.\bin/v8/x86/DebugRelease\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>false</GenerateManifest>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <CodeAnalysisRules />
-    <CodeAnalysisRuleAssemblies />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>.\bin/v8/x64/Debug\</OutDir>
     <IntDir>.\bin/v8/x64/Debug\</IntDir>
     <LinkIncremental>true</LinkIncremental>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <CodeAnalysisRules />
-    <CodeAnalysisRuleAssemblies />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>.\bin/v8/x64/Release/\</OutDir>
     <IntDir>.\bin/v8/x64/Release/\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>false</GenerateManifest>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <CodeAnalysisRules />
-    <CodeAnalysisRuleAssemblies />
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|x64'">
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <CodeAnalysisRules />
-    <CodeAnalysisRuleAssemblies />
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
@@ -159,7 +137,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>A32BITS;WINDOWS;_DEBUG;_WINDOWS;DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
       <FloatingPointModel>Precise</FloatingPointModel>
       <FloatingPointExceptions>true</FloatingPointExceptions>
@@ -174,6 +152,8 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <DisableSpecificWarnings>4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <CompileAsManaged>
+      </CompileAsManaged>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -181,7 +161,7 @@
     </ResourceCompile>
     <Link>
       <AdditionalOptions>/NODEFAULTLIB:library %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>opengl32.lib;winmm.lib;glu32.lib;snd\libv2.lib;snd\dsound.lib;vcruntime.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;glu32.lib;snd\libv2.lib;snd\dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\exe\intro_deb_v8_x86.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -193,7 +173,6 @@
       <DataExecutionPrevention />
       <TargetMachine>MachineX86</TargetMachine>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
-      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -413,143 +392,107 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\tools\picoc\picoc.vcxproj">
+    <ProjectReference Include="tools\picoc\picoc.vcxproj">
       <Project>{ae8967db-eefd-4738-b32f-e7f3e732d684}</Project>
       <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
       <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="snd\libv2.h" />
-    <ClInclude Include="snd\microphone.hh" />
-    <ClInclude Include="snd\sound.h" />
-    <ClInclude Include="snd\sync.hh" />
-    <ClInclude Include="snd\v2mplayer.h" />
-    <ClInclude Include="src\anim.hh" />
-    <ClInclude Include="src\anim.hxx" />
-    <ClInclude Include="src\animid.hh" />
-    <ClInclude Include="src\anims.hh" />
-    <ClInclude Include="src\armchair.hh" />
-    <ClInclude Include="src\array.hh" />
-    <ClInclude Include="src\array.hxx" />
-    <ClInclude Include="src\basicTypes.hh" />
-    <ClInclude Include="src\bookshelf.hh" />
-    <ClInclude Include="src\camera.hh" />
-    <ClInclude Include="src\carousel.hh" />
-    <ClInclude Include="src\chess.hh" />
-    <ClInclude Include="src\chimney.hh" />
-    <ClInclude Include="src\clock.hh" />
-    <ClInclude Include="src\cube.hh" />
-    <ClInclude Include="src\desk.hh" />
-    <ClInclude Include="src\dialog.hh" />
-    <ClInclude Include="src\dialog.hxx" />
-    <ClInclude Include="src\drum.hh" />
-    <ClInclude Include="src\fbodata.hh" />
-    <ClInclude Include="src\fbodata.hxx" />
-    <ClInclude Include="src\fboid.hh" />
-    <ClInclude Include="src\fbos.hh" />
-    <ClInclude Include="src\files.hh" />
-    <ClInclude Include="src\font.hh" />
-    <ClInclude Include="src\fontsticker.hh" />
-    <ClInclude Include="src\fontwrapper.hh" />
-    <ClInclude Include="src\harp.hh" />
-    <ClInclude Include="src\interpolation.hh" />
-    <ClInclude Include="src\intro.hh" />
-    <ClInclude Include="src\lensorbs.hh" />
-    <ClInclude Include="src\light.hh" />
-    <ClInclude Include="src\loading.hh" />
-    <ClInclude Include="src\lousianne.hh" />
-    <ClInclude Include="src\lsystem.hh" />
-    <ClInclude Include="src\lsystemalphabet.hh" />
-    <ClInclude Include="src\luxo.hh" />
-    <ClInclude Include="src\matrix.hh" />
-    <ClInclude Include="src\mesh.hh" />
-    <ClInclude Include="src\minify.hh" />
-    <ClInclude Include="src\musicbox.hh" />
-    <ClInclude Include="src\node.hh" />
-    <ClInclude Include="src\node.hxx" />
-    <ClInclude Include="src\orgalame.hh" />
-    <ClInclude Include="src\pascontent.hh" />
+    <None Include="data\camera\factory.txt" />
+    <None Include="data\light\factory.txt" />
+    <CustomBuild Include="F.nfo">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </CustomBuild>
+    <None Include="snd\microphone.hh" />
+    <None Include="snd\sync.hh" />
+    <None Include="src\anim.hh" />
+    <None Include="src\animid.hh" />
+    <None Include="src\anims.hh" />
+    <None Include="src\armchair.hh" />
+    <None Include="src\array.hh" />
+    <None Include="src\basicTypes.hh" />
+    <None Include="src\bookshelf.hh" />
+    <None Include="src\camera.hh" />
+    <None Include="src\carousel.hh" />
+    <None Include="src\chess.hh" />
+    <None Include="src\chimney.hh" />
+    <None Include="src\clock.hh" />
+    <None Include="src\cube.hh" />
+    <None Include="src\desk.hh" />
+    <None Include="src\dialog.hh" />
+    <None Include="src\drum.hh" />
+    <None Include="src\fbodata.hh" />
+    <None Include="src\fboid.hh" />
+    <None Include="src\fbos.hh" />
+    <None Include="src\files.hh" />
+    <None Include="src\font.hh" />
+    <None Include="src\fontsticker.hh" />
+    <None Include="src\fontwrapper.hh" />
+    <None Include="src\harp.hh" />
+    <None Include="src\interpolation.hh" />
+    <None Include="src\intro.hh" />
+    <None Include="src\lensorbs.hh" />
+    <None Include="src\light.hh" />
+    <None Include="src\loading.hh" />
+    <None Include="src\lousianne.hh" />
+    <None Include="src\lsystem.hh" />
+    <None Include="src\lsystemalphabet.hh" />
+    <None Include="src\luxo.hh" />
+    <None Include="src\matrix.hh" />
+    <None Include="src\mesh.hh" />
+    <None Include="src\minify.hh" />
+    <None Include="src\musicbox.hh" />
+    <None Include="src\node.hh" />
+    <None Include="src\orgalame.hh" />
+    <None Include="src\pascontent.hh" />
     <CustomBuild Include="src\physic_test.hh">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </CustomBuild>
-    <ClInclude Include="src\phy\constants.hh" />
-    <ClInclude Include="src\phy\constraint.hh" />
-    <ClInclude Include="src\phy\constraint.hxx" />
-    <ClInclude Include="src\phy\gjk.hh" />
-    <ClInclude Include="src\phy\particle.hh" />
-    <ClInclude Include="src\phy\particle.hxx" />
-    <ClInclude Include="src\phy\phy_mesh.hh" />
-    <ClInclude Include="src\phy\world.hh" />
-    <ClInclude Include="src\phy\world.hxx" />
-    <ClInclude Include="src\picoc_binding.hh" />
-    <ClInclude Include="src\puppet.hh" />
-    <ClInclude Include="src\quaternion.hh" />
-    <ClInclude Include="src\queue.hh" />
-    <ClInclude Include="src\renderable.hh" />
-    <ClInclude Include="src\renderable.hxx" />
-    <ClInclude Include="src\renderlist.hh" />
-    <ClInclude Include="src\renderlist.hxx" />
-    <ClInclude Include="src\revolution.hh" />
-    <ClInclude Include="src\revolutionfunctions.hh" />
-    <ClInclude Include="src\sceneimporter.hh" />
-    <ClInclude Include="src\server.hh" />
-    <ClInclude Include="src\shaderid.hh" />
-    <ClInclude Include="src\shaderprogram.hh" />
-    <ClInclude Include="src\shaderprogram.hxx" />
-    <ClInclude Include="src\shaders.hh" />
-    <ClInclude Include="src\shelf.hh" />
-    <ClInclude Include="src\spline.h" />
-    <ClInclude Include="src\stb_image.hh" />
-    <ClInclude Include="src\stool.hh" />
-    <ClInclude Include="src\sys\events.h" />
-    <ClInclude Include="src\sys\glext.h" />
-    <ClInclude Include="src\sys\msys.h" />
-    <ClInclude Include="src\sys\msys_debug.h" />
-    <ClInclude Include="src\sys\msys_font.h" />
-    <ClInclude Include="src\sys\msys_forbidden.h" />
-    <ClInclude Include="src\sys\msys_glext.h" />
-    <ClInclude Include="src\sys\msys_libc.h" />
-    <ClInclude Include="src\sys\msys_malloc.h" />
-    <ClInclude Include="src\sys\msys_random.h" />
-    <ClInclude Include="src\sys\msys_sound.h" />
-    <ClInclude Include="src\sys\msys_thread.h" />
-    <ClInclude Include="src\sys\msys_timer.h" />
-    <ClInclude Include="src\sys\msys_types.h" />
-    <ClInclude Include="src\sys\_windows\x86\memcpy.h" />
-    <ClInclude Include="src\table.hh" />
-    <ClInclude Include="src\texgen\noise.hh" />
-    <ClInclude Include="src\texgen\texture.hh" />
-    <ClInclude Include="src\textureid.hh" />
-    <ClInclude Include="src\textures.hh" />
-    <ClInclude Include="src\textureunit.hh" />
-    <ClInclude Include="src\textureunit.hxx" />
-    <ClInclude Include="src\timeline.hh" />
-    <ClInclude Include="src\timing.hh" />
-    <ClInclude Include="src\transformation.hh" />
-    <ClInclude Include="src\tweakval.h" />
-    <ClInclude Include="src\variable.hh" />
-    <ClInclude Include="src\variables_gen.hh" />
-    <ClInclude Include="src\vbodata.hh" />
-    <ClInclude Include="src\vbodata.hxx" />
-    <ClInclude Include="src\vboid.hh" />
-    <ClInclude Include="src\vbos.hh" />
-    <ClInclude Include="src\vector.hh" />
-    <ClInclude Include="src\workshop.hh" />
-    <ClInclude Include="src\xylotrain.hh" />
+    <None Include="src\phy\constants.hh" />
+    <None Include="src\phy\constraint.hh" />
+    <None Include="src\phy\gjk.hh" />
+    <None Include="src\phy\particle.hh" />
+    <None Include="src\phy\phy_mesh.hh" />
+    <None Include="src\phy\world.hh" />
+    <None Include="src\picoc_binding.hh" />
+    <None Include="src\puppet.hh" />
+    <None Include="src\quaternion.hh" />
+    <None Include="src\queue.hh" />
+    <None Include="src\renderable.hh" />
+    <None Include="src\renderlist.hh" />
+    <None Include="src\revolution.hh" />
+    <None Include="src\revolutionfunctions.hh" />
+    <None Include="src\sceneimporter.hh" />
+    <None Include="src\server.hh" />
+    <None Include="src\shaderid.hh" />
+    <None Include="src\shaderprogram.hh" />
+    <None Include="src\shaders.hh" />
+    <None Include="src\shelf.hh" />
+    <None Include="src\stb_image.hh" />
+    <None Include="src\stool.hh" />
+    <None Include="src\table.hh" />
+    <None Include="src\texgen\noise.hh" />
+    <None Include="src\texgen\texture.hh" />
+    <None Include="src\textureid.hh" />
+    <None Include="src\textures.hh" />
+    <None Include="src\textureunit.hh" />
+    <None Include="src\timeline.hh" />
+    <None Include="src\timing.hh" />
+    <None Include="src\transformation.hh" />
+    <None Include="src\variable.hh" />
+    <None Include="src\variables_gen.hh" />
+    <None Include="src\vbodata.hh" />
+    <None Include="src\vboid.hh" />
+    <None Include="src\vbos.hh" />
+    <None Include="src\vector.hh" />
+    <None Include="src\workshop.hh" />
+    <None Include="src\xylotrain.hh" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\tools\texgen\src\picoc_library.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
-      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\tools\texgen\src\picoc_platform.cc">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
-      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="data\textures\albedoTest.cc">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -949,6 +892,51 @@
     <ClCompile Include="src\vbos.cc" />
     <ClCompile Include="src\workshop.cc" />
     <ClCompile Include="src\xylotrain.cc" />
+    <ClCompile Include="src\texgen\picoc_library.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\texgen\picoc_platform.cc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="snd\libv2.h" />
+    <ClInclude Include="snd\sound.h" />
+    <ClInclude Include="snd\v2mplayer.h" />
+    <ClInclude Include="src\anim.hxx" />
+    <ClInclude Include="src\array.hxx" />
+    <ClInclude Include="src\dialog.hxx" />
+    <ClInclude Include="src\fbodata.hxx" />
+    <ClInclude Include="src\node.hxx" />
+    <ClInclude Include="src\phy\constraint.hxx" />
+    <ClInclude Include="src\phy\particle.hxx" />
+    <ClInclude Include="src\phy\world.hxx" />
+    <ClInclude Include="src\renderable.hxx" />
+    <ClInclude Include="src\renderlist.hxx" />
+    <ClInclude Include="src\shaderprogram.hxx" />
+    <ClInclude Include="src\spline.h" />
+    <ClInclude Include="src\sys\events.h" />
+    <ClInclude Include="src\sys\glext.h" />
+    <ClInclude Include="src\sys\msys.h" />
+    <ClInclude Include="src\sys\msys_debug.h" />
+    <ClInclude Include="src\sys\msys_font.h" />
+    <ClInclude Include="src\sys\msys_forbidden.h" />
+    <ClInclude Include="src\sys\msys_glext.h" />
+    <ClInclude Include="src\sys\msys_libc.h" />
+    <ClInclude Include="src\sys\msys_malloc.h" />
+    <ClInclude Include="src\sys\msys_random.h" />
+    <ClInclude Include="src\sys\msys_sound.h" />
+    <ClInclude Include="src\sys\msys_thread.h" />
+    <ClInclude Include="src\sys\msys_timer.h" />
+    <ClInclude Include="src\sys\msys_types.h" />
+    <ClInclude Include="src\sys\_windows\x86\memcpy.h" />
+    <ClInclude Include="src\textureunit.hxx" />
+    <ClInclude Include="src\tweakval.h" />
+    <ClInclude Include="src\vbodata.hxx" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="snd\tune.asm">
@@ -969,17 +957,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ml64.exe /c  /nologo  /Fo".\bin\v8\x64\Release\msys_libcOS_rel_asm.obj" .\src\sys\_windows/x64/msys_libcOS_rel_asm.asm</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\bin\v8\x64\Release\msys_libcOS_rel_asm.obj;%(Outputs)</Outputs>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="data\camera\factory.txt" />
-    <Text Include="data\light\factory.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="F.nfo">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </CustomBuild>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

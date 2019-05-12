@@ -165,7 +165,7 @@ namespace Chess
     float ret[2];
     spline(knightData, ARRAY_LEN(knightData) / 2, 1, theta / 3.1415f * 180.f, ret);
     float r = ret[0];
-    r = mix(r, 0.f, t == 0.5f ? 0.f : msys_powf(abs(1.f - t * 2.f), 6.f));
+    r = mix(r, 0.f, t == 0.5f ? 0.f : msys_powf(fabsf(1.f - t * 2.f), 6.f));
     return r * 2.f / 255.f + 0.01f;
   }
 

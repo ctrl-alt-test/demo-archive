@@ -172,7 +172,7 @@ namespace Texture
 
   inline float &	Channel::operator [] (unsigned int i)
   {
-    assert(i < _size);
+    // assert(i < _size);
     return _data[i];
   }
 

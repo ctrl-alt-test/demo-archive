@@ -15,7 +15,7 @@
 
 namespace tweakval
 {
-  bool isEnable = true; // pour désactiver dynamiquement TV
+  bool isEnable = false; // pour désactiver dynamiquement TV
 
 struct Tweakable
 {
