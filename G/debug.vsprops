@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="debug"
+	>
+	<Tool
+		Name="VCBscMakeTool"
+		SuppressStartupBanner="true"
+		OutputFile=".\bin/v8/x86/Debug/intro.bsc"
+	/>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalOptions="/MP"
+		Optimization="0"
+		PreprocessorDefinitions="A32BITS;WINDOWS;_DEBUG;_WINDOWS;DEBUG;_CRT_SECURE_NO_WARNINGS"
+		BasicRuntimeChecks="3"
+		RuntimeLibrary="1"
+		EnableEnhancedInstructionSet="0"
+		FloatingPointModel="0"
+		FloatingPointExceptions="true"
+		PrecompiledHeaderFile=".\bin/v8/x86/Debug/intro02.pch"
+		AssemblerOutput="4"
+		AssemblerListingLocation=".\bin/v8/x86/Debug/"
+		ObjectFile=".\bin/v8/x86/Debug/"
+		ProgramDataBaseFileName=".\bin/v8/x86/Debug/"
+		BrowseInformation="0"
+		WarningLevel="3"
+		WarnAsError="true"
+		SuppressStartupBanner="true"
+		DebugInformationFormat="3"
+		DisableSpecificWarnings="4819"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalOptions="/NODEFAULTLIB:library"
+		AdditionalDependencies="opengl32.lib winmm.lib glu32.lib extlib\libv2.lib extlib\dsound.lib extlib\bass.lib"
+		OutputFile=".\exe\intro_deb_v8_x86.exe"
+		LinkIncremental="2"
+		SuppressStartupBanner="true"
+		GenerateDebugInformation="true"
+		ProgramDatabaseFile=""
+		GenerateMapFile="true"
+		MapFileName=".\bin/v8/x86/Debug/intro_deb_x86.map"
+		SubSystem="2"
+		RandomizedBaseAddress="1"
+		DataExecutionPrevention="0"
+		TargetMachine="1"
+	/>
+	<Tool
+		Name="VCMIDLTool"
+		PreprocessorDefinitions="_DEBUG"
+		MkTypLibCompatible="true"
+		SuppressStartupBanner="true"
+		TargetEnvironment="1"
+		TypeLibraryName=".\bin/Debug/intro02.tlb"
+		HeaderFileName=""
+	/>
+	<Tool
+		Name="VCResourceCompilerTool"
+		PreprocessorDefinitions="_DEBUG"
+		Culture="1033"
+	/>
+</VisualStudioPropertySheet>
