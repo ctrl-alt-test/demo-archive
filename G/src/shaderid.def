@@ -1,0 +1,65 @@
+//
+// Identifiants de tous les shaders utilisés
+//
+
+//SHADER_ID(loading),
+
+// SHADER_ID(default),
+// SHADER_ID(createVSM),
+SHADER_ID(parallax),
+SHADER_ID(anisotropic),
+SHADER_ID(staticGeomVSM),
+
+SHADER_ID(retro),
+SHADER_ID(danceFloor),
+SHADER_ID(text3D),
+SHADER_ID(text3DVSM),
+SHADER_ID(particles),
+SHADER_ID(seagulTest),
+SHADER_ID(seagulTestVSM),
+SHADER_ID(growTest),
+SHADER_ID(growTestVSM),
+SHADER_ID(artDecoTest),
+SHADER_ID(artDecoTestVSM),
+SHADER_ID(sea),
+SHADER_ID(seaVSM),
+SHADER_ID(floating),
+SHADER_ID(floatingVSM),
+SHADER_ID(hills),
+SHADER_ID(hillsVSM),
+SHADER_ID(popping),
+SHADER_ID(poppingVSM),
+
+SHADER_ID(lightSource),
+
+SHADER_ID(attractor),
+
+SHADER_ID(noPost),
+// SHADER_ID(holga),
+// SHADER_ID(television),
+
+SHADER_ID(text),
+SHADER_ID(hBlurPass),
+SHADER_ID(vBlurPass),
+SHADER_ID(hStreakPass),
+SHADER_ID(vStreakPass),
+
+SHADER_ID(bokehFstPass),
+SHADER_ID(bokehSndPass),
+
+SHADER_ID(finalPass),
+SHADER_ID(sky),
+SHADER_ID(titleScreen),
+SHADER_ID(titleScreenGlow),
+SHADER_ID(antialias),
+SHADER_ID(lensOrbs),
+
+// Les shaders de test doivent être en dernier :
+// ça permet de faire une comparaison d'id
+#if !STATIC_SHADERS
+SHADER_ID(debugNonLinear),
+SHADER_ID(debugNormals),
+SHADER_ID(debugLight),
+SHADER_ID(debugWhiteLight),
+// SHADER_ID(debugZBuffer),
+#endif // DEBUG
