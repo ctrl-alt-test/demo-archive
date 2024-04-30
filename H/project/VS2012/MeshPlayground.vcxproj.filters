@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2f105fc7-6ebe-40b6-b25d-6f65c70b40b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tool">
+      <UniqueIdentifier>{b00398ce-c270-4a3f-9067-ad481c889e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{f2561e19-c4b0-4067-9e49-58b74b2a43aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\meshplayground">
+      <UniqueIdentifier>{cc2a5288-71eb-4c53-98c9-1f69485b32a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\meshes">
+      <UniqueIdentifier>{5ffab2e2-bdb1-43eb-9a7e-dcfbfc02795b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\postprocessing">
+      <UniqueIdentifier>{44f606be-bd75-4edd-9f01-060fc9023ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tool\mesh">
+      <UniqueIdentifier>{5508fd5e-3d9e-4bc1-ad8d-547ced0e4650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\textures">
+      <UniqueIdentifier>{7f25f72c-209d-493a-9740-0c3c0529b998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\H">
+      <UniqueIdentifier>{1c5fe85f-c7e6-4769-8515-475879c80fd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\tool\ShaderHelper.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\Quad.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\platform\Win32Platform.cpp">
+      <Filter>src\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshplayground\main.cpp">
+      <Filter>src\meshplayground</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshplayground\OrbitCameraControls.cpp">
+      <Filter>src\meshplayground</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\Mesh\VertexDataP2dT.cpp">
+      <Filter>src\tool\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\Mesh\VertexDataPNT.cpp">
+      <Filter>src\tool\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\Mesh\MeshHelper.cpp">
+      <Filter>src\tool\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\postprocessing\ToneMapping.cpp">
+      <Filter>src\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\postprocessing\FXAA.cpp">
+      <Filter>src\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\TextureHelper.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\MeshLoader.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\mesh\ThreejsExporter.cpp">
+      <Filter>src\tool\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\CommonMaterial.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\ShaderLoader.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\TextureLoader.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\mesh\VertexDataPNTT.cpp">
+      <Filter>src\tool\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\postprocessing\CommonPostProcessing.cpp">
+      <Filter>src\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\postprocessing\FinalCombine.cpp">
+      <Filter>src\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\postprocessing\GaussianBlur.cpp">
+      <Filter>src\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\postprocessing\StreakBlur.cpp">
+      <Filter>src\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\H\TheSubmersible.cpp">
+      <Filter>src\H</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Fountain.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Gate.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\GreekColumn.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Houses.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Lightning.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\MyCube.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Obelisk.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Parthenon.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Plant.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\PlaygroundMesh.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\ResearchVessel.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Road.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Rocks.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\RuinsFloor.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\SdfTest.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Seagull.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\SeaSurface.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Shark.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Stairs.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Statue.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Submersible.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Tholos.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Trident.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\UnderwaterFloor.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Viaduct.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Artemision.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\CityFloor.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Dolphin.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Fence.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\OldStone.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\RandomTexture.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\RCCTest.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\ResearchVessel.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\Cobbles.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\DebugTextures.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\GreekColumn.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\GreekTiles.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\Ground.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\Marble.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\MaterialStudy.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\Mosaic.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\textures\NoiseTextures.cpp">
+      <Filter>src\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\ShaderMinifier.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\PoseidonSeated.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\ElderManStatue.cpp">
+      <Filter>src\meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\RenderList.cpp">
+      <Filter>src\tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\tool\ShaderHelper.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\Quad.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\Mesh\VertexDataP2dT.hh">
+      <Filter>src\tool\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\Mesh\VertexDataPNT.hh">
+      <Filter>src\tool\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\Mesh\MeshHelper.hh">
+      <Filter>src\tool\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\IncludeUtils.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\postprocessing\ToneMapping.hh">
+      <Filter>src\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\postprocessing\FXAA.hh">
+      <Filter>src\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\TextureHelper.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\mesh\ThreejsExporter.hh">
+      <Filter>src\tool\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\CommonMaterial.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\ShaderLoader.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\TextureLoader.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\mesh\VertexDataPNTT.hh">
+      <Filter>src\tool\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\KeyboardAndMouseState.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\postprocessing\CommonPostProcessing.hh">
+      <Filter>src\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\postprocessing\FinalCombine.hh">
+      <Filter>src\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\postprocessing\StreakBlur.hh">
+      <Filter>src\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\postprocessing\GaussianBlur.hh">
+      <Filter>src\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\H\TheSubmersible.hh">
+      <Filter>src\H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\IPlatform.hh">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\KeyCodes.hh">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\Platform.hh">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\platform\Win32Platform.hh">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshplayground\OrbitCameraControls.hh">
+      <Filter>src\meshplayground</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\MeshLoader.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Fountain.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Gate.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\GreekColumn.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Houses.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Lightning.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\MyCube.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Obelisk.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Parthenon.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Plant.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\PlaygroundMesh.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\ResearchVessel.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Road.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Rocks.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\RuinsFloor.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\SdfTest.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Seagull.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\SeaSurface.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Shark.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Stairs.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Statue.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Submersible.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Tholos.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Trident.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\UnderwaterFloor.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Viaduct.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Artemision.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\CityFloor.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Dolphin.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Fence.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\NoiseTextures.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\OldStone.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\RandomTexture.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\RCCTest.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\ResearchVessel.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\Cobbles.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\DebugTextures.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\GreekColumn.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\GreekTiles.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\Ground.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\Marble.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\MaterialStudy.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\textures\Mosaic.hh">
+      <Filter>src\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\ShaderUniformNames.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\ShaderMinifier.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\PoseidonSeated.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\ElderManStatue.hh">
+      <Filter>src\meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\RenderList.hh">
+      <Filter>src\tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

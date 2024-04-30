@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugRelease|Win32">
+      <Configuration>DebugRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\engine\algebra\AABB3.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\AABB3.hxx" />
+    <ClInclude Include="..\..\src\engine\algebra\Functions.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hxx" />
+    <ClInclude Include="..\..\src\engine\algebra\Matrix.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Matrix.hxx" />
+    <ClInclude Include="..\..\src\engine\algebra\Plane.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Plane.hxx" />
+    <ClInclude Include="..\..\src\engine\algebra\Quaternion.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Quaternion.hxx" />
+    <ClInclude Include="..\..\src\engine\algebra\Ray.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Ray.hxx" />
+    <ClInclude Include="..\..\src\engine\algebra\Spline.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Utils.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Vector2.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Vector2.hxx" />
+    <ClInclude Include="..\..\src\engine\algebra\Vector3.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Vector3.hxx" />
+    <ClInclude Include="..\..\src\engine\algebra\Vector4.hh" />
+    <ClInclude Include="..\..\src\engine\algebra\Vector4.hxx" />
+    <ClInclude Include="..\..\src\engine\container\Algorithm.hh" />
+    <ClInclude Include="..\..\src\engine\container\Algorithm.hxx" />
+    <ClInclude Include="..\..\src\engine\container\Array.hh" />
+    <ClInclude Include="..\..\src\engine\container\Array.hxx" />
+    <ClInclude Include="..\..\src\engine\container\Dict.hh" />
+    <ClInclude Include="..\..\src\engine\container\Dict.hxx" />
+    <ClInclude Include="..\..\src\engine\container\HashTable.hh" />
+    <ClInclude Include="..\..\src\engine\container\HashTable.hxx" />
+    <ClInclude Include="..\..\src\engine\container\Queue.hh" />
+    <ClInclude Include="..\..\src\engine\container\Utils.hh" />
+    <ClInclude Include="..\..\src\engine\core\Camera.hh" />
+    <ClInclude Include="..\..\src\engine\core\Camera.hxx" />
+    <ClInclude Include="..\..\src\engine\core\Debug.hh" />
+    <ClInclude Include="..\..\src\engine\core\FileIO.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\Light.hh" />
+    <ClInclude Include="..\..\src\engine\core\Log.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\msys_temp.hh" />
+    <ClInclude Include="..\..\src\engine\core\Node.hh" />
+    <ClInclude Include="..\..\src\engine\core\RigidTransform.hh" />
+    <ClInclude Include="..\..\src\engine\core\RigidTransform.hxx" />
+    <ClInclude Include="..\..\src\engine\core\Settings.hh" />
+    <ClInclude Include="..\..\src\engine\core\StringUtils.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\Cube.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\HeightMap.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\IMeshBuilder.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\Marching.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\Mesh.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\MeshPool.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\Revolution.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\RevolutionFunctions.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\Utils.hh" />
+    <ClInclude Include="..\..\src\engine\mesh\Vertex.hh" />
+    <ClInclude Include="..\..\src\engine\noise\Gradient.hh" />
+    <ClInclude Include="..\..\src\engine\noise\Hash.hh" />
+    <ClInclude Include="..\..\src\engine\noise\LatticeNoise.hh" />
+    <ClInclude Include="..\..\src\engine\noise\PerlinNoise.hh" />
+    <ClInclude Include="..\..\src\engine\noise\Rand.hh" />
+    <ClInclude Include="..\..\src\engine\noise\SimplexNoise.hh" />
+    <ClInclude Include="..\..\src\engine\noise\SimplexValueNoise.hh" />
+    <ClInclude Include="..\..\src\engine\noise\ValueNoise.hh" />
+    <ClInclude Include="..\..\src\engine\noise\WorleyNoise.hh" />
+    <ClInclude Include="..\..\src\engine\render\MeshGeometry.hh" />
+    <ClInclude Include="..\..\src\engine\runtime\FileWatcher.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\runtime\RuntimeCompiler.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\sound\MusicPlayerBASS.hh" />
+    <ClInclude Include="..\..\src\engine\texture\ITextureBuilder.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\texture\Texture.hh" />
+    <ClInclude Include="..\..\src\engine\texture\Texture.hxx" />
+    <ClInclude Include="..\..\src\engine\texture\Utils.hh" />
+    <ClInclude Include="..\..\src\engine\timeline\Anim.hh" />
+    <ClInclude Include="..\..\src\engine\timeline\Anim.hxx" />
+    <ClInclude Include="..\..\src\engine\timeline\Clock.hh" />
+    <ClInclude Include="..\..\src\engine\timeline\Timeline.hh" />
+    <ClInclude Include="..\..\src\engine\timeline\Variable.hh" />
+    <ClInclude Include="..\..\thirdparty\imgui\imconfig.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\imgui.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\imgui_internal.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\stb_rect_pack.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\stb_textedit.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\stb_truetype.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\tweakval\tweakval.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\engine\algebra\Functions.cpp" />
+    <ClCompile Include="..\..\src\engine\algebra\Matrix.cpp" />
+    <ClCompile Include="..\..\src\engine\algebra\Quaternion.cpp" />
+    <ClCompile Include="..\..\src\engine\algebra\Spline.cc" />
+    <ClCompile Include="..\..\src\engine\algebra\Vector3.cpp" />
+    <ClCompile Include="..\..\src\engine\core\Camera.cpp" />
+    <ClCompile Include="..\..\src\engine\core\Debug.cpp" />
+    <ClCompile Include="..\..\src\engine\core\FileIO.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\Log.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\msys_temp.cpp" />
+    <ClCompile Include="..\..\src\engine\core\Node.cpp" />
+    <ClCompile Include="..\..\src\engine\core\RigidTransform.cpp" />
+    <ClCompile Include="..\..\src\engine\core\Settings.cpp" />
+    <ClCompile Include="..\..\src\engine\core\StringUtils.cpp" />
+    <ClCompile Include="..\..\src\engine\mesh\Cube.cpp" />
+    <ClCompile Include="..\..\src\engine\mesh\HeightMap.cpp" />
+    <ClCompile Include="..\..\src\engine\mesh\Marching.cpp" />
+    <ClCompile Include="..\..\src\engine\mesh\Mesh.cpp" />
+    <ClCompile Include="..\..\src\engine\mesh\MeshPool.cpp" />
+    <ClCompile Include="..\..\src\engine\mesh\Revolution.cpp" />
+    <ClCompile Include="..\..\src\engine\mesh\RevolutionFunctions.cpp" />
+    <ClCompile Include="..\..\src\engine\mesh\Utils.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\Gradient.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\Hash.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\LatticeNoise.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\PerlinNoise.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\Rand.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\SimplexNoise.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\SimplexValueNoise.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\Utils.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\ValueNoise.cpp" />
+    <ClCompile Include="..\..\src\engine\noise\WorleyNoise.cpp" />
+    <ClCompile Include="..\..\src\engine\runtime\FileWatcher.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\runtime\RuntimeCompiler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\sound\MusicPlayerBASS.cpp" />
+    <ClCompile Include="..\..\src\engine\texture\Texture.cpp" />
+    <ClCompile Include="..\..\src\engine\texture\Utils.cpp" />
+    <ClCompile Include="..\..\src\engine\timeline\Clock.cpp" />
+    <ClCompile Include="..\..\src\engine\timeline\Timeline.cpp" />
+    <ClCompile Include="..\..\src\engine\timeline\Variable.cpp" />
+    <ClCompile Include="..\..\thirdparty\imgui\imgui.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\imgui\imgui_demo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\imgui\imgui_draw.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\tweakval\tweakval.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\engine\noise\Utils.hh" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F52A974B-592A-48EA-9952-C460A779F25C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="allCommon.props" />
+    <Import Project="debugCommon.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="allCommon.props" />
+    <Import Project="releaseCommon.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'" Label="PropertySheets">
+    <Import Project="allCommon.props" />
+    <Import Project="releaseCommon.props" />
+    <Import Project="debugReleaseCommon.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PreprocessorDefinitions>WIN32;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PreprocessorDefinitions>WIN32;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <CallingConvention>FastCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PreprocessorDefinitions>WIN32;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>FastCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

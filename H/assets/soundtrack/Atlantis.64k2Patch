@@ -1,0 +1,3294 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Patch version="1.0">
+    <Node type="0" global="1" channel="-1" x="6400" y="10073" id="0">
+        <Input id="50" />
+        <Parameter value1="0.406250000000000" value2="0.406250000000000" />
+    </Node>
+    <Node type="1" global="1" channel="0" x="4000" y="773" id="1">
+        <Input id="17" />
+        <Parameter value1="0.515625000000000" value2="0.515625000000000" />
+    </Node>
+    <Node type="1" global="1" channel="1" x="4000" y="1973" id="2" name="dyna bass pluck">
+        <Input id="70" />
+        <Parameter value1="0.984375000000000" value2="0.984375000000000" />
+    </Node>
+    <Node type="1" global="1" channel="2" x="4000" y="3173" id="3" name="BT supersmooth">
+        <Input id="91" />
+        <Parameter value1="0.234375000000000" value2="0.234375000000000" />
+    </Node>
+    <Node type="1" global="1" channel="3" x="4000" y="4373" id="4" name="velo wobble">
+        <Input id="113" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+    </Node>
+    <Node type="1" global="1" channel="4" x="4000" y="5573" id="5" name="Virgill-BS-Bouncebass">
+        <Input id="21" />
+        <Parameter value1="0.640625000000000" value2="0.640625000000000" />
+    </Node>
+    <Node type="1" global="1" channel="5" x="4000" y="6773" id="6" name="dnbkit 1">
+        <Input id="22" />
+        <Parameter value1="0.968750000000000" value2="0.968750000000000" />
+    </Node>
+    <Node type="1" global="1" channel="6" x="4000" y="7973" id="7" name="BT reso pad">
+        <Input id="185" />
+        <Parameter value1="0.421875000000000" value2="0.421875000000000" />
+    </Node>
+    <Node type="1" global="1" channel="7" x="4000" y="9173" id="8" name="Virgill-Aaah-Choir">
+        <Input id="205" />
+        <Parameter value1="0.328125000000000" value2="0.328125000000000" />
+    </Node>
+    <Node type="1" global="1" channel="8" x="4000" y="10373" id="9" name="singing pad">
+        <Input id="226" />
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+    </Node>
+    <Node type="1" global="1" channel="9" x="4000" y="11573" id="10" name="BT_Blipper">
+        <Input id="247" />
+        <Parameter value1="0.046875000000000" value2="0.046875000000000" />
+    </Node>
+    <Node type="1" global="1" channel="10" x="4000" y="12773" id="11" name="RP Oldschool FM Bass">
+        <Input id="27" />
+        <Parameter value1="0.210937500000000" value2="0.210937500000000" />
+    </Node>
+    <Node type="1" global="1" channel="11" x="4000" y="13973" id="12" name="LM WSEQ - Wavetable01 [ MWh  ]">
+        <Input id="28" />
+        <Parameter value1="0.023437500000000" value2="0.023437500000000" />
+    </Node>
+    <Node type="1" global="1" channel="12" x="4000" y="15173" id="13" name="pOWL-PAD-SpacyOdysseyAttack">
+        <Input id="313" />
+        <Parameter value1="0.289062500000000" value2="0.289062500000000" />
+    </Node>
+    <Node type="1" global="1" channel="13" x="4000" y="16373" id="14" name="BT fm pad">
+        <Input id="332" />
+        <Parameter value1="0.257812500000000" value2="0.257812500000000" />
+    </Node>
+    <Node type="1" global="1" channel="14" x="4000" y="17573" id="15" name="LM WSEQ - Propaganda">
+        <Input id="31" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" />
+    </Node>
+    <Node type="1" global="1" channel="15" x="4000" y="18773" id="16" name="pOWL-PAD-SpacyOdyssey">
+        <Input id="373" />
+        <Parameter value1="0.328125000000000" value2="0.328125000000000" />
+    </Node>
+    <Node type="2" global="1" channel="0" x="3800" y="773" id="17">
+        <Input id="51" />
+    </Node>
+    <Node type="2" global="1" channel="1" x="3590" y="1981" id="18">
+        <Input id="81" />
+    </Node>
+    <Node type="2" global="1" channel="2" x="2733" y="3053" id="19">
+        <Input id="108" />
+    </Node>
+    <Node type="2" global="1" channel="3" x="3590" y="4381" id="20">
+        <Input id="123" />
+    </Node>
+    <Node type="2" global="1" channel="4" x="3800" y="5573" id="21">
+        <Input id="137" />
+    </Node>
+    <Node type="2" global="1" channel="5" x="3800" y="6773" id="22">
+        <Input id="161" />
+        <Input id="1024" />
+        <Input id="1112" />
+    </Node>
+    <Node type="2" global="1" channel="6" x="2729" y="7856" id="23">
+        <Input id="198" />
+    </Node>
+    <Node type="2" global="1" channel="7" x="3546" y="9190" id="24">
+        <Input id="211" />
+    </Node>
+    <Node type="2" global="1" channel="8" x="3590" y="10381" id="25">
+        <Input id="236" />
+    </Node>
+    <Node type="2" global="1" channel="9" x="2300" y="11630" id="26">
+        <Input id="610" />
+    </Node>
+    <Node type="2" global="1" channel="10" x="3800" y="12773" id="27">
+        <Input id="266" />
+    </Node>
+    <Node type="2" global="1" channel="11" x="3800" y="13973" id="28">
+        <Input id="288" />
+    </Node>
+    <Node type="2" global="1" channel="12" x="3666" y="15083" id="29">
+        <Input id="320" />
+    </Node>
+    <Node type="2" global="1" channel="13" x="2728" y="16256" id="30">
+        <Input id="345" />
+    </Node>
+    <Node type="2" global="1" channel="14" x="3800" y="17573" id="31">
+        <Input id="354" />
+    </Node>
+    <Node type="2" global="1" channel="15" x="3666" y="18683" id="32">
+        <Input id="380" />
+    </Node>
+    <Node type="21" global="1" channel="-1" x="5800" y="10073" id="50">
+        <Input id="1" />
+        <Input id="2" />
+        <Input id="3" />
+        <Input id="4" />
+        <Input id="5" />
+        <Input id="6" />
+        <Input id="7" />
+        <Input id="8" />
+        <Input id="9" />
+        <Input id="10" />
+        <Input id="11" />
+        <Input id="12" />
+        <Input id="13" />
+        <Input id="14" />
+        <Input id="15" />
+        <Input id="16" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3600" y="773" id="51">
+        <Input id="55" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3259" y="775" id="55">
+        <Input id="402" />
+        <Input id="400" />
+        <Input id="69" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2541" y="671" id="56">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.335937500000000" value2="0.609375000000000" input="439" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="439" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.648437500000000" value2="0.648437500000000" />
+        <Mode value="6150" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2547" y="890" id="63">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.039062500000000" />
+        <Parameter value1="0.296875000000000" value2="0.585937500000000" />
+        <Parameter value1="0.210937500000000" value2="0.593750000000000" />
+        <Parameter value1="0.406250000000000" value2="0.312500000000000" />
+        <Parameter value1="0.523437500000000" value2="0.601562500000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3000" y="923" id="69">
+        <Input id="63" />
+    </Node>
+    <Node type="17" global="1" channel="-2" x="3829" y="2166" id="70">
+        <Input id="71" />
+        <Input id="18" />
+    </Node>
+    <Node type="36" global="1" channel="-2" x="3910" y="1733" id="71">
+        <Input id="77" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.671875000000000" value2="0.671875000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+    </Node>
+    <Node type="9" global="1" channel="-2" x="3641" y="1735" id="77">
+        <Input id="18" />
+        <Parameter value1="0.703125000000000" value2="0.726562500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="2" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3390" y="1981" id="81">
+        <Input id="85" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3179" y="2036" id="85">
+        <Input id="86" />
+        <Input id="524" />
+        <Input id="530" />
+    </Node>
+    <Node type="38" global="0" channel="-2" x="3186" y="1822" id="86">
+        <Input id="415" />
+        <Input id="415" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="-0.398437500000000" value2="-0.398437500000000" />
+        <Parameter value1="0.195312500000000" value2="0.195312500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+    </Node>
+    <Node type="34" global="1" channel="-2" x="3782" y="3288" id="91">
+        <Input id="93" />
+        <Parameter value1="0.997650146484375" value2="0.997650146484375" />
+    </Node>
+    <Node type="9" global="1" channel="-2" x="3778" y="3143" id="93">
+        <Input id="97" />
+        <Parameter value1="0.867188000000000" value2="0.867188000000000" />
+        <Parameter value1="-0.164063000000000" value2="-0.164063000000000" />
+        <Parameter value1="0.796875000000000" value2="0.796875000000000" />
+        <Mode value="8" />
+    </Node>
+    <Node type="9" global="1" channel="-2" x="3777" y="3000" id="97">
+        <Input id="101" />
+        <Parameter value1="0.289063000000000" value2="0.289063000000000" />
+        <Parameter value1="0.414063000000000" value2="0.414063000000000" />
+        <Parameter value1="0.796875000000000" value2="0.796875000000000" />
+        <Mode value="7" />
+    </Node>
+    <Node type="20" global="1" channel="-2" x="3557" y="3022" id="101">
+        <Input id="103" />
+        <Input id="1221" />
+        <Parameter value1="0.218750000000000" value2="0.218750000000000" />
+    </Node>
+    <Node type="33" global="1" channel="-2" x="3074" y="3038" id="103">
+        <Input id="19" />
+        <Parameter value1="0.476562500000000" value2="0.390625000000000" />
+        <Parameter value1="0.421875000000000" value2="0.593750000000000" />
+        <Parameter value1="0.125000000000000" value2="0.125000000000000" />
+        <Parameter value1="0.468750000000000" value2="0.468750000000000" />
+        <Mode value="128" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="2517" y="3055" id="108">
+        <Input id="112" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="2272" y="3077" id="112">
+        <Input id="1158" />
+        <Input id="1214" />
+        <Input id="1220" />
+    </Node>
+    <Node type="17" global="1" channel="-2" x="3829" y="4566" id="113">
+        <Input id="114" />
+        <Input id="20" />
+    </Node>
+    <Node type="33" global="1" channel="-2" x="4145" y="4086" id="114">
+        <Input id="119" />
+        <Parameter value1="0.343750000000000" value2="0.351562500000000" />
+        <Parameter value1="0.500000000000000" value2="0.656250000000000" />
+        <Parameter value1="0.718750000000000" value2="0.718750000000000" />
+        <Parameter value1="0.312500000000000" value2="0.312500000000000" />
+        <Mode value="131" />
+    </Node>
+    <Node type="9" global="1" channel="-2" x="3641" y="4135" id="119">
+        <Input id="20" />
+        <Parameter value1="0.656250000000000" value2="0.656250000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="1" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3390" y="4381" id="123">
+        <Input id="127" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3179" y="4436" id="127">
+        <Input id="128" />
+        <Input id="566" />
+        <Input id="572" />
+    </Node>
+    <Node type="20" global="0" channel="-2" x="3012" y="4354" id="128">
+        <Input id="130" />
+        <Input id="559" />
+        <Parameter value1="0.273437500000000" value2="0.273437500000000" />
+    </Node>
+    <Node type="30" global="0" channel="-2" x="2939" y="4136" id="130">
+        <Input id="133" />
+        <Parameter value1="0.382812500000000" value2="0.382812500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2765" y="4243" id="133">
+        <Input id="444" />
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" input="552" />
+        <Parameter value1="0.015625000000000" value2="0.015625000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3600" y="5573" id="137">
+        <Input id="141" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.226563000000000" value2="0.226563000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32760" />
+            <StepData value="184" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="224" />
+            <StepData value="224" />
+            <StepData value="96" />
+            <StepData value="32544" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="32724" />
+            <StepData value="212" />
+            <StepData value="212" />
+            <StepData value="20" />
+            <StepData value="32736" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32760" />
+            <StepData value="32736" />
+            <StepData value="32736" />
+            <StepData value="32748" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32748" />
+            <StepData value="32736" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3200" y="5573" id="141">
+        <Input id="142" />
+        <Input id="1304" />
+        <Input id="1310" />
+    </Node>
+    <Node type="21" global="0" channel="-2" x="3241" y="5484" id="142">
+        <Input id="143" />
+        <Input id="1297" />
+    </Node>
+    <Node type="33" global="0" channel="-2" x="3070" y="5396" id="143">
+        <Input id="148" />
+        <Parameter value1="0.312500000000000" value2="0.328125000000000" input="1296" />
+        <Parameter value1="0.460938000000000" value2="0.460938000000000" />
+        <Parameter value1="0.320313000000000" value2="0.320313000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Mode value="129" />
+    </Node>
+    <Node type="55" global="0" channel="-2" x="3091" y="5152" id="148">
+        <Input id="151" />
+        <Parameter value1="0.203125000000000" value2="0.203125000000000" />
+        <Parameter value1="0.281250000000000" value2="0.281250000000000" />
+        <Mode value="64" />
+    </Node>
+    <Node type="30" global="0" channel="-2" x="2943" y="5273" id="151">
+        <Input id="154" />
+        <Parameter value1="0.703125000000000" value2="0.703125000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="1" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2822" y="5357" id="154">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="506" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3600" y="6773" id="161">
+        <Input id="165" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1611673648" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3388" y="6765" id="165">
+        <Input id="166" />
+        <Input id="1016" />
+        <Input id="1023" />
+    </Node>
+    <Node type="37" global="0" channel="-2" x="3145" y="6653" id="166">
+        <Input id="177" />
+        <Parameter value1="0.632812500000000" value2="0.632812500000000" />
+        <Parameter value1="0.726562500000000" value2="0.726562500000000" />
+        <Parameter value1="0.679687500000000" value2="0.679687500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.609375000000000" value2="0.609375000000000" />
+        <Parameter value1="0.804687500000000" value2="0.804687500000000" />
+        <Parameter value1="0.765625000000000" value2="0.765625000000000" />
+        <Parameter value1="0.820312500000000" value2="0.820312500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="2930" y="6750" id="177">
+        <Input id="178" />
+        <Input id="994" />
+    </Node>
+    <Node type="30" global="0" channel="-2" x="2406" y="6783" id="178">
+        <Input id="181" />
+        <Parameter value1="0.007812500000000" value2="0.007812500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2216" y="6642" id="181">
+        <Input id="429" />
+        <Parameter value1="0.218750000000000" value2="0.218750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="34" global="1" channel="-2" x="3839" y="8076" id="185">
+        <Input id="187" />
+        <Parameter value1="0.997650146484375" value2="0.997650146484375" />
+    </Node>
+    <Node type="9" global="1" channel="-2" x="3835" y="7931" id="187">
+        <Input id="191" />
+        <Parameter value1="0.867188000000000" value2="0.867188000000000" />
+        <Parameter value1="-0.164063000000000" value2="-0.164063000000000" />
+        <Parameter value1="0.796875000000000" value2="0.796875000000000" />
+        <Mode value="8" />
+    </Node>
+    <Node type="20" global="1" channel="-2" x="3646" y="7805" id="191">
+        <Input id="193" />
+        <Input id="498" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+    </Node>
+    <Node type="33" global="1" channel="-2" x="3215" y="7831" id="193">
+        <Input id="23" />
+        <Parameter value1="0.468750000000000" value2="0.468750000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.625000000000000" value2="0.625000000000000" />
+        <Mode value="128" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="2538" y="7854" id="198">
+        <Input id="202" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="2326" y="7877" id="202">
+        <Input id="203" />
+        <Input id="491" />
+        <Input id="497" />
+    </Node>
+    <Node type="13" global="0" channel="-2" x="2161" y="7792" id="203">
+        <Input id="449" />
+        <Parameter value1="0.250000000000000" value2="0.250000000000000" input="490" />
+    </Node>
+    <Node type="36" global="1" channel="-2" x="3837" y="9168" id="205">
+        <Input id="24" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.875000000000000" value2="0.875000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3346" y="9190" id="211">
+        <Input id="215" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.125000000000000" value2="0.125000000000000" />
+        <Mode value="3178240" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="2946" y="9190" id="215">
+        <Input id="216" />
+        <Input id="538" />
+        <Input id="544" />
+    </Node>
+    <Node type="21" global="0" channel="-2" x="2785" y="8867" id="216">
+        <Input id="217" />
+        <Input id="531" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2585" y="8819" id="217">
+        <Input id="221" />
+        <Parameter value1="0.101562500000000" value2="0.101562500000000" input="224" />
+        <Parameter value1="0.406250000000000" value2="0.406250000000000" />
+        <Parameter value1="0.632812500000000" value2="0.632812500000000" />
+        <Mode value="259" />
+    </Node>
+    <Node type="8" global="0" channel="-2" x="2339" y="8725" id="221">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.242187500000000" value2="0.242187500000000" />
+    </Node>
+    <Node type="15" global="0" channel="-2" x="2366" y="8985" id="224">
+        <Input id="225" />
+        <Input id="31498" />
+    </Node>
+    <Node type="66" global="0" channel="-2" x="2204" y="9007" id="225">
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="17" global="1" channel="-2" x="3829" y="10566" id="226">
+        <Input id="227" />
+        <Input id="25" />
+    </Node>
+    <Node type="33" global="1" channel="-2" x="4145" y="10086" id="227">
+        <Input id="232" />
+        <Parameter value1="0.390625000000000" value2="0.484375000000000" />
+        <Parameter value1="0.687500000000000" value2="0.718750000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="128" />
+    </Node>
+    <Node type="9" global="1" channel="-2" x="3641" y="10135" id="232">
+        <Input id="25" />
+        <Parameter value1="0.703125000000000" value2="0.726562500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="2" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3390" y="10381" id="236">
+        <Input id="240" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3179" y="10436" id="240">
+        <Input id="241" />
+        <Input id="600" />
+        <Input id="606" />
+    </Node>
+    <Node type="20" global="0" channel="-2" x="3012" y="10354" id="241">
+        <Input id="243" />
+        <Input id="593" />
+        <Parameter value1="0.023437500000000" value2="0.023437500000000" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2765" y="10243" id="243">
+        <Input id="573" />
+        <Parameter value1="0.531250000000000" value2="0.531250000000000" input="586" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="34" global="1" channel="-2" x="3839" y="11804" id="247">
+        <Input id="249" />
+        <Parameter value1="0.997650000000000" value2="0.997650000000000" />
+    </Node>
+    <Node type="9" global="1" channel="-2" x="3835" y="11659" id="249">
+        <Input id="253" />
+        <Parameter value1="0.867188000000000" value2="0.867188000000000" />
+        <Parameter value1="-0.164063000000000" value2="-0.164063000000000" />
+        <Parameter value1="0.796875000000000" value2="0.796875000000000" />
+        <Mode value="8" />
+    </Node>
+    <Node type="9" global="1" channel="-2" x="3834" y="11516" id="253">
+        <Input id="257" />
+        <Parameter value1="0.289063000000000" value2="0.289063000000000" />
+        <Parameter value1="0.414063000000000" value2="0.414063000000000" />
+        <Parameter value1="0.796875000000000" value2="0.796875000000000" />
+        <Mode value="7" />
+    </Node>
+    <Node type="20" global="1" channel="-2" x="3598" y="11534" id="257">
+        <Input id="259" />
+        <Input id="698" />
+        <Parameter value1="0.164063000000000" value2="0.164063000000000" />
+    </Node>
+    <Node type="33" global="1" channel="-2" x="3172" y="11558" id="259">
+        <Input id="264" />
+        <Parameter value1="0.382813000000000" value2="0.382813000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.195313000000000" value2="0.195313000000000" />
+        <Parameter value1="0.351563000000000" value2="0.351563000000000" />
+        <Mode value="128" />
+    </Node>
+    <Node type="20" global="1" channel="-2" x="2919" y="11584" id="264">
+        <Input id="607" />
+        <Input id="691" />
+        <Parameter value1="0.671875000000000" value2="0.671875000000000" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3600" y="12773" id="266">
+        <Input id="270" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3357" y="12775" id="270">
+        <Input id="271" />
+        <Input id="282" />
+        <Input id="706" />
+    </Node>
+    <Node type="30" global="0" channel="-2" x="3193" y="12703" id="271">
+        <Input id="274" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="281" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="4" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="3024" y="12448" id="274">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="281" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2950" y="12694" id="281">
+        <Input id="282" />
+        <Parameter value1="0.453125000000000" value2="0.453125000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2764" y="12800" id="282">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.601562500000000" value2="0.601562500000000" />
+        <Parameter value1="0.914062500000000" value2="0.914062500000000" />
+        <Parameter value1="0.085937500000000" value2="0.085937500000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="240" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3600" y="13973" id="288">
+        <Input id="292" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3399" y="13937" id="292">
+        <Input id="293" />
+        <Input id="728" />
+        <Input id="734" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="3239" y="13791" id="293">
+        <Input id="297" />
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="513" />
+    </Node>
+    <Node type="38" global="0" channel="-2" x="2999" y="13791" id="297">
+        <Input id="302" />
+        <Input id="302" />
+        <Parameter value1="0.648437500000000" value2="0.648437500000000" />
+        <Parameter value1="-0.140625000000000" value2="-0.140625000000000" />
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2836" y="13925" id="302">
+        <Input id="306" />
+        <Parameter value1="0.460937500000000" value2="0.460937500000000" input="718" />
+        <Parameter value1="-0.015625000000000" value2="-0.015625000000000" input="723" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2674" y="13705" id="306">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="707" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="712" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2053" />
+    </Node>
+    <Node type="20" global="1" channel="-2" x="3997" y="15054" id="313">
+        <Input id="315" />
+        <Input id="852" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+    </Node>
+    <Node type="33" global="1" channel="-2" x="3841" y="14840" id="315">
+        <Input id="29" />
+        <Parameter value1="0.578125000000000" value2="0.578125000000000" />
+        <Parameter value1="0.640625000000000" value2="0.640625000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.257812500000000" value2="0.257812500000000" />
+        <Mode value="128" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3667" y="15137" id="320">
+        <Input id="324" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3456" y="15160" id="324">
+        <Input id="325" />
+        <Input id="744" />
+        <Input id="851" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="3456" y="15258" id="325">
+        <Input id="326" />
+        <Input id="847" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="3295" y="15151" id="326">
+        <Input id="330" />
+        <Parameter value1="0.887573242187500" value2="0.887573242187500" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" input="840" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="256" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="3297" y="15472" id="330">
+        <Input id="331" />
+        <Input id="778" />
+    </Node>
+    <Node type="21" global="0" channel="-2" x="2945" y="15435" id="331">
+        <Input id="735" />
+        <Input id="757" />
+        <Input id="764" />
+        <Input id="771" />
+    </Node>
+    <Node type="34" global="1" channel="-2" x="3839" y="16476" id="332">
+        <Input id="334" />
+        <Parameter value1="0.997650146484375" value2="0.997650146484375" />
+    </Node>
+    <Node type="9" global="1" channel="-2" x="3835" y="16331" id="334">
+        <Input id="338" />
+        <Parameter value1="0.867188000000000" value2="0.867188000000000" />
+        <Parameter value1="-0.164063000000000" value2="-0.164063000000000" />
+        <Parameter value1="0.796875000000000" value2="0.796875000000000" />
+        <Mode value="8" />
+    </Node>
+    <Node type="20" global="1" channel="-2" x="3646" y="16205" id="338">
+        <Input id="340" />
+        <Input id="1288" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+    </Node>
+    <Node type="33" global="1" channel="-2" x="3215" y="16231" id="340">
+        <Input id="30" />
+        <Parameter value1="0.468750000000000" value2="0.468750000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="128" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="2538" y="16254" id="345">
+        <Input id="349" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="2326" y="16277" id="349">
+        <Input id="350" />
+        <Input id="1281" />
+        <Input id="1287" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2160" y="16201" id="350">
+        <Input id="860" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1273" />
+        <Parameter value1="0.117188000000000" value2="0.117188000000000" />
+        <Parameter value1="0.781250000000000" value2="0.781250000000000" />
+        <Mode value="70" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3600" y="17573" id="354">
+        <Input id="358" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3438" y="17571" id="358">
+        <Input id="359" />
+        <Input id="937" />
+        <Input id="943" />
+    </Node>
+    <Node type="38" global="0" channel="-2" x="3198" y="17411" id="359">
+        <Input id="364" />
+        <Input id="32767" />
+        <Parameter value1="0.742187500000000" value2="0.742187500000000" />
+        <Parameter value1="-0.289062500000000" value2="-0.289062500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.062500000000000" value2="0.062500000000000" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="3037" y="17408" id="364">
+        <Input id="368" />
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="513" />
+    </Node>
+    <Node type="38" global="0" channel="-2" x="2797" y="17408" id="368">
+        <Input id="886" />
+        <Input id="886" />
+        <Parameter value1="0.648437500000000" value2="0.648437500000000" />
+        <Parameter value1="-0.140625000000000" value2="-0.140625000000000" />
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+    </Node>
+    <Node type="20" global="1" channel="-2" x="3997" y="18654" id="373">
+        <Input id="375" />
+        <Input id="1407" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+    </Node>
+    <Node type="33" global="1" channel="-2" x="3841" y="18440" id="375">
+        <Input id="32" />
+        <Parameter value1="0.578125000000000" value2="0.578125000000000" />
+        <Parameter value1="0.640625000000000" value2="0.640625000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.257812500000000" value2="0.257812500000000" />
+        <Mode value="128" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3667" y="18737" id="380">
+        <Input id="384" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3456" y="18760" id="384">
+        <Input id="385" />
+        <Input id="962" />
+        <Input id="1406" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="3456" y="18858" id="385">
+        <Input id="386" />
+        <Input id="1402" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="3295" y="18751" id="386">
+        <Input id="390" />
+        <Parameter value1="0.707885742187500" value2="0.707885742187500" input="951" />
+        <Parameter value1="-0.187500000000000" value2="-0.187500000000000" input="1395" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="256" />
+    </Node>
+    <Node type="21" global="0" channel="-2" x="3296" y="19037" id="390">
+        <Input id="391" />
+        <Input id="952" />
+        <Input id="1333" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="3127" y="18420" id="391">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" input="944" />
+        <Parameter value1="-0.375000000000000" value2="-0.375000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="950" />
+        <Parameter value1="0.031250000000000" value2="0.031250000000000" input="951" />
+        <Mode value="2055" />
+    </Node>
+    <Node type="32" global="0" channel="-2" x="2898" y="605" id="398">
+        <Input id="63" />
+        <Parameter value1="0.007812500000000" value2="0.375000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="57" global="0" channel="-2" x="2996" y="783" id="400">
+        <Input id="56" />
+        <Parameter value1="0.437500000000000" value2="0.679687500000000" />
+        <Mode value="23" />
+    </Node>
+    <Node type="13" global="0" channel="-2" x="3306" y="590" id="402">
+        <Input id="409" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="404" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="3060" y="650" id="404">
+        <Parameter value1="0.609375000000000" value2="0.640625000000000" />
+        <Parameter value1="0.429687500000000" value2="0.742187500000000" />
+        <Parameter value1="0.492187500000000" value2="0.492187500000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" />
+        <Mode value="512" />
+    </Node>
+    <Node type="36" global="0" channel="-2" x="3153" y="425" id="409">
+        <Input id="398" />
+        <Parameter value1="0.843750000000000" value2="0.843750000000000" />
+        <Parameter value1="0.390625000000000" value2="0.390625000000000" />
+        <Parameter value1="0.312500000000000" value2="0.312500000000000" />
+        <Parameter value1="0.132812500000000" value2="0.132812500000000" />
+        <Parameter value1="0.695312500000000" value2="0.695312500000000" input="398" />
+    </Node>
+    <Node type="20" global="0" channel="-2" x="3012" y="1954" id="415">
+        <Input id="417" />
+        <Input id="519" />
+        <Parameter value1="0.023437500000000" value2="0.023437500000000" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2765" y="1843" id="417">
+        <Input id="421" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="512" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="56" global="0" channel="-2" x="2489" y="1786" id="421">
+        <Input id="426" />
+        <Parameter value1="0.000000000000000" value2="0.109375000000000" input="427" />
+        <Parameter value1="-0.500000000000000" value2="-0.500000000000000" input="428" />
+        <Parameter value1="0.219726562500000" value2="0.233398437500000" />
+        <Parameter value1="0.111328125000000" value2="0.301757812500000" />
+        <Mode value="1" />
+    </Node>
+    <Node type="52" global="0" channel="-2" x="2117" y="1686" id="426">
+        <Mode value="314" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="1960" y="1836" id="427">
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="18" global="0" channel="-2" x="2233" y="2089" id="428">
+        <Input id="511" />
+        <Input id="31501" />
+    </Node>
+    <Node type="30" global="0" channel="-2" x="2061" y="6665" id="429">
+        <Input id="432" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="988" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="4" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1746" y="6664" id="432">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="981" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2351" y="752" id="439">
+        <Parameter value1="0.406250000000000" value2="0.406250000000000" />
+        <Parameter value1="0.093750000000000" value2="0.718750000000000" />
+        <Parameter value1="0.640625000000000" value2="0.593750000000000" />
+        <Parameter value1="0.585937500000000" value2="0.375000000000000" />
+        <Mode value="2304" />
+    </Node>
+    <Node type="56" global="0" channel="-2" x="2489" y="4186" id="444">
+        <Input id="545" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" input="546" />
+        <Parameter value1="-0.500000000000000" value2="-0.500000000000000" input="551" />
+        <Parameter value1="0.491210937500000" value2="0.429687500000000" />
+        <Parameter value1="0.125000000000000" value2="0.227539062500000" />
+        <Mode value="1" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="1969" y="7666" id="449">
+        <Input id="453" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="482" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="64" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1529" y="7690" id="453">
+        <Input id="454" />
+        <Input id="468" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1369" y="7572" id="454">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="461" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.234375000000000" input="467" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="2054" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="1212" y="7602" id="461">
+        <Input id="462" />
+        <Parameter value1="0.781250000000000" value2="0.750000000000000" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="1042" y="7639" id="462">
+        <Parameter value1="0.554688000000000" value2="0.554688000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="1208" y="7676" id="467">
+        <Input id="462" />
+        <Parameter value1="-0.164063000000000" value2="-0.203125000000000" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1365" y="7803" id="468">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="475" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="-0.031250000000000" value2="0.218750000000000" input="481" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="2054" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="1197" y="7834" id="475">
+        <Input id="476" />
+        <Parameter value1="-0.734375000000000" value2="-0.765625000000000" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="1033" y="7868" id="476">
+        <Parameter value1="0.601563000000000" value2="0.601563000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="1202" y="7907" id="481">
+        <Input id="476" />
+        <Parameter value1="0.257813000000000" value2="0.281250000000000" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1806" y="7818" id="482">
+        <Input id="483" />
+        <Input id="484" />
+    </Node>
+    <Node type="66" global="0" channel="-2" x="1630" y="7812" id="483">
+        <Parameter value1="0.218750000000000" value2="0.218750000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1631" y="7899" id="484">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.757813000000000" value2="0.757813000000000" />
+        <Parameter value1="0.757813000000000" value2="0.757813000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.757813000000000" value2="0.757813000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="35" global="0" channel="-2" x="1973" y="7901" id="490">
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1992" y="8071" id="491">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.250000000000000" value2="0.250000000000000" />
+        <Parameter value1="0.164063000000000" value2="0.164063000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.710938000000000" value2="0.710938000000000" />
+        <Parameter value1="0.195312500000000" value2="0.164062500000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="2154" y="8091" id="497">
+        <Input id="491" />
+    </Node>
+    <Node type="36" global="1" channel="-2" x="3487" y="7990" id="498">
+        <Input id="504" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.890625000000000" value2="0.890625000000000" />
+        <Parameter value1="0.125000000000000" value2="0.125000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="32" global="1" channel="-2" x="3427" y="7889" id="504">
+        <Input id="193" />
+        <Parameter value1="0.101563000000000" value2="0.101563000000000" />
+        <Mode value="3" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2683" y="5501" id="506">
+        <Parameter value1="0.515625000000000" value2="0.515625000000000" />
+        <Parameter value1="0.000000000000000" value2="0.828125000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="512" />
+    </Node>
+    <Node type="66" global="0" channel="-2" x="1950" y="1984" id="511">
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2636" y="2291" id="512">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.296875000000000" value2="0.296875000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.148437500000000" value2="0.148437500000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" input="518" />
+        <Mode value="48" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="2242" y="2384" id="518">
+        <Parameter value1="0.445312500000000" value2="0.445312500000000" />
+    </Node>
+    <Node type="15" global="0" channel="-2" x="3147" y="1736" id="519">
+        <Input id="520" />
+        <Input id="31500" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2564" y="2005" id="520">
+        <Input id="32767" />
+        <Parameter value1="0.726562500000000" value2="0.726562500000000" />
+        <Parameter value1="0.132812500000000" value2="0.132812500000000" />
+        <Parameter value1="0.718750000000000" value2="0.718750000000000" />
+        <Mode value="262" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2797" y="2029" id="524">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.195312500000000" value2="0.195312500000000" />
+        <Parameter value1="0.367187500000000" value2="0.367187500000000" />
+        <Parameter value1="0.226562500000000" value2="0.226562500000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="2979" y="2186" id="530">
+        <Input id="524" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2583" y="8955" id="531">
+        <Input id="535" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="224" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="259" />
+    </Node>
+    <Node type="8" global="0" channel="-2" x="2349" y="8826" id="535">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.859375000000000" value2="0.859375000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2546" y="9290" id="538">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.328125000000000" value2="0.328125000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.843750000000000" value2="0.843750000000000" />
+        <Mode value="240" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="2746" y="9340" id="544">
+        <Input id="538" />
+    </Node>
+    <Node type="52" global="0" channel="-2" x="2117" y="4086" id="545">
+        <Mode value="176" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2069" y="4253" id="546">
+        <Parameter value1="0.390625000000000" value2="0.437500000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.421875000000000" value2="0.421875000000000" />
+        <Mode value="3" />
+    </Node>
+    <Node type="66" global="0" channel="-2" x="2259" y="4310" id="551">
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2636" y="4691" id="552">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.679687500000000" value2="0.679687500000000" input="558" />
+        <Parameter value1="0.273437500000000" value2="0.273437500000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.460937500000000" value2="0.460937500000000" />
+        <Mode value="48" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="2242" y="4784" id="558">
+        <Parameter value1="-0.554687500000000" value2="-0.554687500000000" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2284" y="4483" id="559">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="-0.085937500000000" value2="-0.085937500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2797" y="4429" id="566">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.132812500000000" value2="0.132812500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="2979" y="4586" id="572">
+        <Input id="566" />
+    </Node>
+    <Node type="56" global="0" channel="-2" x="2489" y="10186" id="573">
+        <Input id="578" />
+        <Parameter value1="0.625000000000000" value2="0.625000000000000" input="579" />
+        <Parameter value1="-0.500000000000000" value2="-0.500000000000000" input="584" />
+        <Parameter value1="0.219726562500000" value2="0.233398437500000" />
+        <Parameter value1="0.111328125000000" value2="0.301757812500000" />
+        <Mode value="1" />
+    </Node>
+    <Node type="52" global="0" channel="-2" x="2117" y="10086" id="578">
+        <Mode value="209" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="1978" y="10216" id="579">
+        <Parameter value1="0.406250000000000" value2="0.406250000000000" />
+        <Parameter value1="0.046875000000000" value2="0.125000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.328125000000000" value2="0.328125000000000" />
+        <Mode value="515" />
+    </Node>
+    <Node type="18" global="0" channel="-2" x="2233" y="10489" id="584">
+        <Input id="585" />
+        <Input id="31499" />
+    </Node>
+    <Node type="66" global="0" channel="-2" x="1950" y="10384" id="585">
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2636" y="10691" id="586">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.218750000000000" value2="0.218750000000000" />
+        <Parameter value1="0.273437500000000" value2="0.273437500000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" input="592" />
+        <Mode value="48" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="2242" y="10784" id="592">
+        <Parameter value1="0.445312500000000" value2="0.445312500000000" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2593" y="10408" id="593">
+        <Input id="597" />
+        <Parameter value1="0.851562500000000" value2="0.851562500000000" />
+        <Parameter value1="0.640625000000000" value2="0.640625000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="386" />
+    </Node>
+    <Node type="8" global="0" channel="-2" x="2389" y="10505" id="597">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2797" y="10429" id="600">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.257812500000000" value2="0.257812500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.539062500000000" value2="0.539062500000000" />
+        <Parameter value1="0.367187500000000" value2="0.273437500000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="2979" y="10586" id="606">
+        <Input id="600" />
+    </Node>
+    <Node type="30" global="1" channel="-2" x="2530" y="11609" id="607">
+        <Input id="26" />
+        <Parameter value1="0.085937500000000" value2="0.085937500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="2100" y="11630" id="610">
+        <Input id="614" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.296875000000000" value2="0.296875000000000" />
+        <Mode value="4292352" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32748" />
+            <StepData value="236" />
+            <StepData value="32724" />
+            <StepData value="212" />
+            <StepData value="32748" />
+            <StepData value="236" />
+            <StepData value="0" />
+            <StepData value="32736" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32748" />
+            <StepData value="32748" />
+            <StepData value="32724" />
+            <StepData value="212" />
+            <StepData value="32748" />
+            <StepData value="236" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32724" />
+            <StepData value="212" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32748" />
+            <StepData value="32736" />
+            <StepData value="0" />
+            <StepData value="32724" />
+            <StepData value="32736" />
+            <StepData value="32736" />
+            <StepData value="32736" />
+            <StepData value="32736" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="1918" y="11653" id="614">
+        <Input id="615" />
+        <Input id="683" />
+        <Input id="690" />
+    </Node>
+    <Node type="13" global="0" channel="-2" x="1846" y="11486" id="615">
+        <Input id="617" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="682" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="1667" y="11331" id="617">
+        <Input id="621" />
+        <Parameter value1="0.296875000000000" value2="0.296875000000000" input="679" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.828125000000000" value2="0.828125000000000" />
+        <Mode value="6" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1491" y="11253" id="621">
+        <Input id="622" />
+        <Input id="648" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1331" y="11047" id="622">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="629" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" input="636" />
+        <Parameter value1="0.000000000000000" value2="0.062500000000000" input="643" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1169" y="10999" id="629">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" input="636" />
+        <Parameter value1="0.000000000000000" value2="0.062500000000000" input="643" />
+        <Parameter value1="0.125000000000000" value2="0.125000000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="566" y="11303" id="636">
+        <Input id="637" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="405" y="11229" id="637">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.164063000000000" value2="0.164063000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="1007" y="10957" id="643">
+        <Parameter value1="0.617188000000000" value2="0.617188000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.203125000000000" value2="0.203125000000000" />
+        <Mode value="3" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1132" y="11565" id="648">
+        <Input id="649" />
+        <Input id="662" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="963" y="11419" id="649">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="636" />
+        <Parameter value1="0.000000000000000" value2="0.062500000000000" input="656" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="550" y="11620" id="656">
+        <Input id="657" />
+        <Parameter value1="0.148438000000000" value2="0.148438000000000" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="391" y="11679" id="657">
+        <Parameter value1="0.515625000000000" value2="0.515625000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="3" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="958" y="11607" id="662">
+        <Input id="663" />
+        <Input id="671" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="786" y="11561" id="663">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="670" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" input="636" />
+        <Parameter value1="0.000000000000000" value2="0.062500000000000" input="656" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="553" y="11773" id="670">
+        <Input id="657" />
+        <Parameter value1="-0.203125000000000" value2="-0.203125000000000" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="951" y="11786" id="671">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="678" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" input="636" />
+        <Parameter value1="0.000000000000000" value2="0.062500000000000" input="656" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="45" global="0" channel="-2" x="730" y="11854" id="678">
+        <Input id="670" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1517" y="11488" id="679">
+        <Input id="680" />
+        <Input id="681" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="675" y="11137" id="680">
+        <Input id="637" />
+        <Parameter value1="0.710938000000000" value2="0.710938000000000" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="1362" y="11595" id="681">
+        <Parameter value1="0.492188000000000" value2="0.492188000000000" />
+    </Node>
+    <Node type="35" global="0" channel="-2" x="1642" y="11590" id="682">
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1585" y="11696" id="683">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.078125000000000" value2="0.078125000000000" />
+        <Parameter value1="0.296875000000000" value2="0.296875000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.234375000000000" value2="0.234375000000000" />
+        <Parameter value1="0.554688000000000" value2="0.554688000000000" input="689" />
+        <Mode value="240" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="1349" y="11838" id="689">
+        <Parameter value1="0.320313000000000" value2="0.320313000000000" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="1749" y="11716" id="690">
+        <Input id="683" />
+    </Node>
+    <Node type="15" global="1" channel="-2" x="2761" y="11696" id="691">
+        <Input id="607" />
+        <Input id="692" />
+    </Node>
+    <Node type="23" global="1" channel="-2" x="2760" y="11780" id="692">
+        <Input id="695" />
+        <Parameter value1="0.039062500000000" value2="0.039062500000000" />
+        <Parameter value1="0.046875000000000" value2="0.046875000000000" />
+    </Node>
+    <Node type="40" global="1" channel="-2" x="2545" y="11803" id="695">
+        <Input id="32767" />
+        <Input id="696" />
+        <Input id="696" />
+        <Input id="32767" />
+        <Mode value="769" />
+        <Mode value="286331249" />
+        <Mode value="286331153" />
+        <Mode value="286331153" />
+        <Mode value="286331153" />
+        <Mode value="286331249" />
+        <Mode value="286331153" />
+        <Mode value="286331153" />
+        <Mode value="286331153" />
+    </Node>
+    <Node type="39" global="1" channel="-2" x="2384" y="11893" id="696">
+        <Input id="697" />
+    </Node>
+    <Node type="27" global="1" channel="-2" x="2373" y="11822" id="697">
+        <Input id="610" />
+    </Node>
+    <Node type="36" global="1" channel="-2" x="3444" y="11717" id="698">
+        <Input id="704" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.898438000000000" value2="0.898438000000000" />
+        <Parameter value1="0.437500000000000" value2="0.437500000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="32" global="1" channel="-2" x="3384" y="11616" id="704">
+        <Input id="259" />
+        <Parameter value1="0.101563000000000" value2="0.101563000000000" />
+        <Mode value="3" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3163" y="12917" id="706">
+        <Input id="282" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2512" y="13630" id="707">
+        <Parameter value1="0.593750000000000" value2="0.593750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.796875000000000" value2="0.796875000000000" />
+        <Mode value="2568" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2512" y="13827" id="712">
+        <Parameter value1="0.593750000000000" value2="0.593750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="717" />
+        <Mode value="2306" />
+    </Node>
+    <Node type="29" global="1" channel="-2" x="2327" y="13909" id="717">
+        <Parameter value1="0.390625000000000" value2="0.390625000000000" />
+        <Mode value="1409" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2512" y="13966" id="718">
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.437500000000000" value2="0.437500000000000" />
+        <Mode value="2568" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2514" y="14105" id="723">
+        <Parameter value1="0.593750000000000" value2="0.593750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.554687500000000" value2="0.554687500000000" />
+        <Mode value="2562" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="3062" y="13980" id="728">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3224" y="14025" id="734">
+        <Input id="728" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2787" y="14828" id="735">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" input="742" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="756" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="2627" y="14821" id="742">
+        <Input id="743" />
+        <Input id="750" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2628" y="14902" id="743">
+        <Input id="744" />
+        <Parameter value1="-0.250000000000000" value2="-0.250000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="3461" y="14912" id="744">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.468750000000000" value2="0.468750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.281250000000000" value2="0.281250000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="240" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2628" y="14973" id="750">
+        <Input id="751" />
+        <Parameter value1="-0.406250000000000" value2="-0.406250000000000" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2627" y="15045" id="751">
+        <Parameter value1="0.539062500000000" value2="0.539062500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2626" y="15181" id="756">
+        <Input id="751" />
+        <Parameter value1="0.164062500000000" value2="0.164062500000000" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2786" y="15012" id="757">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.562500000000000" value2="0.562500000000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" input="742" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="-0.257812500000000" value2="0.242187500000000" input="756" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2784" y="15197" id="764">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.250000000000000" value2="0.250000000000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" input="742" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="-0.148437500000000" value2="0.265625000000000" input="756" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2783" y="15378" id="771">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" input="742" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.125000000000000" value2="-0.187500000000000" input="756" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="21" global="0" channel="-2" x="2608" y="15437" id="778">
+        <Input id="779" />
+        <Input id="798" />
+        <Input id="812" />
+        <Input id="826" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2452" y="14826" id="779">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="786" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2290" y="14824" id="786">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="793" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2128" y="14824" id="793">
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.062500000000000" value2="0.062500000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2451" y="15009" id="798">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="805" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="-0.031250000000000" value2="-0.031250000000000" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2289" y="15007" id="805">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="793" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2450" y="15188" id="812">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="819" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.062500000000000" value2="0.062500000000000" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2288" y="15187" id="819">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="793" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2449" y="15372" id="826">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="833" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="-0.046875000000000" value2="0.093750000000000" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2287" y="15370" id="833">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="793" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="3295" y="15076" id="840">
+        <Input id="841" />
+        <Parameter value1="-0.453125000000000" value2="-0.453125000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="3297" y="14881" id="841">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.328125000000000" value2="0.328125000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="240" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="3296" y="15291" id="847">
+        <Input id="330" />
+        <Parameter value1="0.848510742187500" value2="0.848510742187500" />
+        <Parameter value1="-0.187500000000000" value2="-0.187500000000000" input="840" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="260" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3450" y="15106" id="851">
+        <Input id="744" />
+    </Node>
+    <Node type="36" global="1" channel="-2" x="3837" y="15097" id="852">
+        <Input id="858" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="32" global="1" channel="-2" x="3838" y="14999" id="858">
+        <Input id="315" />
+        <Parameter value1="0.101562500000000" value2="0.101562500000000" />
+        <Mode value="3" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2001" y="15996" id="860">
+        <Input id="864" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1270" />
+        <Parameter value1="0.015625000000000" value2="0.015625000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="320" />
+    </Node>
+    <Node type="21" global="0" channel="-2" x="1406" y="16014" id="864">
+        <Input id="865" />
+        <Input id="1229" />
+        <Input id="1250" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1249" y="15666" id="865">
+        <Input id="866" />
+        <Input id="879" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1084" y="15564" id="866">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.015625000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="915" y="15668" id="873">
+        <Input id="874" />
+        <Parameter value1="0.281250000000000" value2="0.265625000000000" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="752" y="15802" id="874">
+        <Parameter value1="0.585938000000000" value2="0.585938000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1084" y="15757" id="879">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2049" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2634" y="17542" id="886">
+        <Input id="890" />
+        <Parameter value1="0.460937500000000" value2="0.460937500000000" input="927" />
+        <Parameter value1="-0.015625000000000" value2="-0.015625000000000" input="932" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="20" global="0" channel="-2" x="2474" y="17441" id="890">
+        <Input id="892" />
+        <Input id="920" />
+        <Parameter value1="0.742187500000000" value2="0.742187500000000" input="910" />
+    </Node>
+    <Node type="33" global="0" channel="-2" x="2313" y="17383" id="892">
+        <Input id="897" />
+        <Parameter value1="0.015625000000000" value2="0.195312500000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.781250000000000" value2="0.781250000000000" />
+        <Mode value="129" />
+    </Node>
+    <Node type="36" global="0" channel="-2" x="2152" y="17381" id="897">
+        <Input id="903" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.890625000000000" value2="0.890625000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.773437500000000" value2="0.773437500000000" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1987" y="17559" id="903">
+        <Parameter value1="0.109375000000000" value2="0.109375000000000" input="910" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" input="915" />
+        <Parameter value1="0.007812500000000" value2="0.007812500000000" />
+        <Parameter value1="0.085937500000000" value2="0.085937500000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="1826" y="17507" id="910">
+        <Parameter value1="0.500000000000000" value2="0.406250000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.257812500000000" value2="0.257812500000000" />
+        <Mode value="2568" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="1824" y="17663" id="915">
+        <Parameter value1="0.781250000000000" value2="0.593750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.937500000000000" value2="0.492187500000000" />
+        <Mode value="2568" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2149" y="17561" id="920">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="903" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2325" y="17588" id="927">
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.437500000000000" value2="0.437500000000000" />
+        <Mode value="2568" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2471" y="17660" id="932">
+        <Parameter value1="0.593750000000000" value2="0.593750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.554687500000000" value2="0.554687500000000" />
+        <Mode value="2562" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="3101" y="17614" id="937">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.507812500000000" value2="0.507812500000000" />
+        <Parameter value1="0.632812500000000" value2="0.632812500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3263" y="17659" id="943">
+        <Input id="937" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2966" y="18424" id="944">
+        <Input id="945" />
+        <Parameter value1="0.671875000000000" value2="0.671875000000000" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2964" y="18576" id="945">
+        <Parameter value1="0.328125000000000" value2="0.328125000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2966" y="18495" id="950">
+        <Input id="945" />
+        <Parameter value1="0.546875000000000" value2="0.546875000000000" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2962" y="18714" id="951">
+        <Input id="945" />
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+    </Node>
+    <Node type="21" global="0" channel="-2" x="2945" y="19035" id="952">
+        <Input id="953" />
+        <Input id="1312" />
+        <Input id="1319" />
+        <Input id="1326" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2787" y="18428" id="953">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" input="960" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1311" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="2627" y="18421" id="960">
+        <Input id="961" />
+        <Input id="968" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2628" y="18502" id="961">
+        <Input id="962" />
+        <Parameter value1="-0.250000000000000" value2="-0.250000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="3461" y="18512" id="962">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.424377441406250" value2="0.424377441406250" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.632812500000000" value2="0.632812500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="240" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2628" y="18573" id="968">
+        <Input id="969" />
+        <Parameter value1="-0.406250000000000" value2="-0.406250000000000" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2627" y="18645" id="969">
+        <Parameter value1="0.539062500000000" value2="0.539062500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="12013" y="2007" id="974">
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1081088" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="12278" y="2032" id="978">
+        <Input id="974" />
+        <Input id="32767" />
+        <Input id="32767" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="12515" y="2040" id="979">
+        <Input id="978" />
+    </Node>
+    <Node type="39" global="0" channel="-2" x="12544" y="2152" id="980">
+        <Input id="978" />
+    </Node>
+    <Node type="54" global="0" channel="-2" x="1549" y="6687" id="981">
+        <Input id="982" />
+        <Input id="32767" />
+        <Data>
+            <![CDATA[out = in0() * in0() * in0();]]>
+
+            <![CDATA[[iI]n0:[iI]n0:*:[iI]n0:*:out=:]]>
+
+        </Data>
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1386" y="6711" id="982">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.289062500000000" value2="0.289062500000000" />
+        <Parameter value1="0.445312500000000" value2="0.445312500000000" />
+        <Parameter value1="0.617187500000000" value2="0.617187500000000" />
+        <Parameter value1="0.281250000000000" value2="0.281250000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1886" y="6718" id="988">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.250000000000000" value2="0.250000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.164062500000000" value2="0.164062500000000" />
+        <Mode value="48" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2769" y="7012" id="994">
+        <Input id="998" />
+        <Parameter value1="0.625000000000000" value2="0.625000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="30" global="0" channel="-2" x="2570" y="7026" id="998">
+        <Input id="1001" />
+        <Parameter value1="0.265625000000000" value2="0.265625000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="4" />
+    </Node>
+    <Node type="15" global="0" channel="-2" x="2340" y="6980" id="1001">
+        <Input id="1002" />
+        <Input id="1010" />
+    </Node>
+    <Node type="42" global="0" channel="-2" x="2109" y="6971" id="1002">
+        <Input id="1009" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.023437500000000" value2="0.023437500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Mode value="1" />
+    </Node>
+    <Node type="52" global="0" channel="-2" x="1769" y="6970" id="1009">
+        <Mode value="176" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2266" y="7093" id="1010">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.125000000000000" value2="0.125000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.562500000000000" value2="0.562500000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="3045" y="7016" id="1016">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.265625000000000" value2="0.265625000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.265625000000000" value2="0.265625000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1022" />
+        <Mode value="48" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="2814" y="7249" id="1022">
+        <Parameter value1="0.960937500000000" value2="0.960937500000000" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3263" y="7001" id="1023">
+        <Input id="1016" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3543" y="7820" id="1024">
+        <Input id="1028" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1611674162" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3179" y="7809" id="1028">
+        <Input id="1029" />
+        <Input id="1104" />
+        <Input id="1111" />
+    </Node>
+    <Node type="37" global="0" channel="-2" x="2936" y="7697" id="1029">
+        <Input id="1040" />
+        <Parameter value1="0.734375000000000" value2="0.734375000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.679687500000000" value2="0.679687500000000" />
+        <Parameter value1="0.781250000000000" value2="0.781250000000000" />
+        <Parameter value1="0.718750000000000" value2="0.718750000000000" />
+        <Parameter value1="0.609375000000000" value2="0.609375000000000" />
+        <Parameter value1="0.835937500000000" value2="0.835937500000000" />
+        <Parameter value1="0.765625000000000" value2="0.765625000000000" />
+        <Parameter value1="0.820312500000000" value2="0.820312500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+    </Node>
+    <Node type="36" global="0" channel="-2" x="2756" y="7801" id="1040">
+        <Input id="1046" />
+        <Parameter value1="0.328125000000000" value2="0.328125000000000" />
+        <Parameter value1="0.546875000000000" value2="0.546875000000000" />
+        <Parameter value1="0.531250000000000" value2="0.531250000000000" />
+        <Parameter value1="0.078125000000000" value2="0.078125000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+    </Node>
+    <Node type="15" global="0" channel="-2" x="2454" y="7711" id="1046">
+        <Input id="1047" />
+        <Input id="1054" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2185" y="7624" id="1047">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.062500000000000" value2="0.062500000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1053" />
+        <Mode value="48" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="1876" y="7680" id="1053">
+        <Parameter value1="0.460937500000000" value2="0.460937500000000" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2480" y="8118" id="1054">
+        <Input id="1058" />
+        <Parameter value1="0.484375000000000" value2="0.484375000000000" input="1103" />
+        <Parameter value1="-0.101562500000000" value2="-0.101562500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="30" global="0" channel="-2" x="2272" y="8021" id="1058">
+        <Input id="1061" />
+        <Parameter value1="0.648437500000000" value2="0.648437500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="4" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="2158" y="7885" id="1061">
+        <Input id="1062" />
+        <Input id="1084" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="1799" y="7841" id="1062">
+        <Input id="1066" />
+        <Parameter value1="0.640625000000000" value2="0.640625000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="30" global="0" channel="-2" x="1600" y="7855" id="1066">
+        <Input id="1069" />
+        <Parameter value1="0.296875000000000" value2="0.296875000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="4" />
+    </Node>
+    <Node type="15" global="0" channel="-2" x="1370" y="7809" id="1069">
+        <Input id="1070" />
+        <Input id="1078" />
+    </Node>
+    <Node type="42" global="0" channel="-2" x="922" y="7824" id="1070">
+        <Input id="1077" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.085937500000000" value2="0.085937500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Mode value="1" />
+    </Node>
+    <Node type="52" global="0" channel="-2" x="582" y="7823" id="1077">
+        <Mode value="220" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1201" y="7868" id="1078">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.179687500000000" value2="0.179687500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.562500000000000" value2="0.562500000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2094" y="8025" id="1084">
+        <Input id="1088" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="15" global="0" channel="-2" x="1923" y="8092" id="1088">
+        <Input id="1089" />
+        <Input id="1097" />
+    </Node>
+    <Node type="42" global="0" channel="-2" x="1574" y="8071" id="1089">
+        <Input id="1096" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.070312500000000" value2="0.070312500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Mode value="1" />
+    </Node>
+    <Node type="52" global="0" channel="-2" x="1227" y="8145" id="1096">
+        <Mode value="161" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1744" y="8140" id="1097">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.406250000000000" value2="0.406250000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="48" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="2202" y="8361" id="1103">
+        <Parameter value1="0.414062500000000" value2="0.414062500000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2875" y="8075" id="1104">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.085937500000000" value2="0.085937500000000" input="1110" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.265625000000000" value2="0.265625000000000" input="1110" />
+        <Parameter value1="0.234375000000000" value2="0.234375000000000" input="1110" />
+        <Mode value="48" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="2432" y="8307" id="1110">
+        <Parameter value1="0.398437500000000" value2="0.398437500000000" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3054" y="8045" id="1111">
+        <Input id="1104" />
+    </Node>
+    <Node type="3" global="1" channel="-2" x="3746" y="8673" id="1112">
+        <Input id="1116" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.140625000000000" value2="0.140625000000000" />
+        <Mode value="1611675190" />
+        <Data>
+            <LoopIndex value="0" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+            <StepData value="32736" />
+            <StepData value="224" />
+        </Data>
+    </Node>
+    <Node type="4" global="0" channel="-2" x="3534" y="8665" id="1116">
+        <Input id="1117" />
+        <Input id="1149" />
+        <Input id="1157" />
+    </Node>
+    <Node type="37" global="0" channel="-2" x="3291" y="8553" id="1117">
+        <Input id="1128" />
+        <Parameter value1="0.734375000000000" value2="0.734375000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.679687500000000" value2="0.679687500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.609375000000000" value2="0.609375000000000" />
+        <Parameter value1="0.804687500000000" value2="0.804687500000000" />
+        <Parameter value1="0.765625000000000" value2="0.765625000000000" />
+        <Parameter value1="0.820312500000000" value2="0.820312500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="3076" y="8650" id="1128">
+        <Input id="32767" />
+        <Input id="1129" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="2915" y="8912" id="1129">
+        <Input id="1133" />
+        <Parameter value1="0.742187500000000" value2="0.742187500000000" input="1148" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="15" global="0" channel="-2" x="2486" y="8880" id="1133">
+        <Input id="1134" />
+        <Input id="1142" />
+    </Node>
+    <Node type="42" global="0" channel="-2" x="2255" y="8871" id="1134">
+        <Input id="1141" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Mode value="1" />
+    </Node>
+    <Node type="52" global="0" channel="-2" x="1915" y="8870" id="1141">
+        <Mode value="17" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2412" y="8993" id="1142">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.468750000000000" value2="0.468750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.562500000000000" value2="0.562500000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="2596" y="9086" id="1148">
+        <Parameter value1="0.125000000000000" value2="0.125000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="3191" y="8916" id="1149">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1155" />
+        <Parameter value1="0.210937500000000" value2="0.210937500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.335937500000000" value2="0.335937500000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1156" />
+        <Mode value="112" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="2897" y="9085" id="1155">
+        <Parameter value1="0.132812500000000" value2="0.132812500000000" />
+    </Node>
+    <Node type="67" global="0" channel="-2" x="2847" y="9157" id="1156">
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3409" y="8901" id="1157">
+        <Input id="1149" />
+    </Node>
+    <Node type="13" global="0" channel="-2" x="2113" y="2996" id="1158">
+        <Input id="1160" />
+        <Parameter value1="0.250000000000000" value2="0.250000000000000" input="1213" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="1896" y="2789" id="1160">
+        <Input id="1164" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1204" />
+        <Parameter value1="0.062500000000000" value2="0.062500000000000" input="1212" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="64" />
+    </Node>
+    <Node type="21" global="0" channel="-2" x="1354" y="2812" id="1164">
+        <Input id="1178" />
+        <Input id="1165" />
+        <Input id="1191" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1190" y="2662" id="1165">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" input="1172" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.031250000000000" input="1177" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="2052" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="858" y="2725" id="1172">
+        <Parameter value1="0.531250000000000" value2="0.531250000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="3" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="1024" y="2765" id="1177">
+        <Input id="1172" />
+        <Parameter value1="0.250000000000000" value2="0.265625000000000" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1188" y="2854" id="1178">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.101562500000000" value2="0.101562500000000" />
+        <Mode value="2049" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="852" y="2917" id="1185">
+        <Parameter value1="0.578125000000000" value2="0.578125000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="259" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="1021" y="2958" id="1190">
+        <Input id="1185" />
+        <Parameter value1="0.250000000000000" value2="0.265625000000000" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1189" y="3048" id="1191">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.484375000000000" value2="0.484375000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.218750000000000" value2="0.218750000000000" />
+        <Mode value="2561" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="1026" y="3083" id="1198">
+        <Input id="1199" />
+        <Parameter value1="0.484375000000000" value2="0.500000000000000" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="859" y="3150" id="1199">
+        <Parameter value1="0.539063000000000" value2="0.539063000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Mode value="3" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1724" y="2832" id="1204">
+        <Input id="1205" />
+        <Input id="1206" />
+    </Node>
+    <Node type="66" global="0" channel="-2" x="1529" y="2922" id="1205">
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1559" y="3014" id="1206">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.125000000000000" value2="0.125000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="48" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="1738" y="2992" id="1212">
+        <Input id="1206" />
+        <Parameter value1="-0.062500000000000" value2="-0.062500000000000" />
+    </Node>
+    <Node type="35" global="0" channel="-2" x="1908" y="3039" id="1213">
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1914" y="3122" id="1214">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.007812500000000" value2="0.007812500000000" />
+        <Parameter value1="0.468750000000000" value2="0.468750000000000" />
+        <Parameter value1="0.179687500000000" value2="0.179687500000000" />
+        <Parameter value1="0.398437500000000" value2="0.398437500000000" />
+        <Parameter value1="0.781250000000000" value2="0.781250000000000" />
+        <Mode value="240" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="2079" y="3141" id="1220">
+        <Input id="1214" />
+    </Node>
+    <Node type="36" global="1" channel="-2" x="3398" y="3151" id="1221">
+        <Input id="1227" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.250000000000000" value2="0.250000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="32" global="1" channel="-2" x="3238" y="3175" id="1227">
+        <Input id="103" />
+        <Parameter value1="0.351562500000000" value2="0.351562500000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1244" y="16057" id="1229">
+        <Input id="1230" />
+        <Input id="1243" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1081" y="15967" id="1230">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="918" y="16068" id="1237">
+        <Input id="1238" />
+        <Parameter value1="-0.250000000000000" value2="-0.281250000000000" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="757" y="16207" id="1238">
+        <Parameter value1="0.570313000000000" value2="0.570313000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1081" y="16163" id="1243">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1242" y="16407" id="1250">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1257" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="-0.093750000000000" value2="-0.093750000000000" />
+        <Parameter value1="0.015625000000000" value2="0.046875000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="1082" y="16405" id="1257">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="-0.187500000000000" value2="-0.187500000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1264" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="928" y="16498" id="1264">
+        <Input id="1265" />
+        <Parameter value1="0.070312500000000" value2="0.078125000000000" />
+    </Node>
+    <Node type="6" global="1" channel="-2" x="767" y="16439" id="1265">
+        <Parameter value1="0.250000000000000" value2="0.250000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1841" y="16117" id="1270">
+        <Input id="1271" />
+        <Input id="1272" />
+    </Node>
+    <Node type="66" global="0" channel="-2" x="1673" y="16105" id="1271">
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+    </Node>
+    <Node type="14" global="1" channel="-2" x="1680" y="16162" id="1272">
+        <Input id="1265" />
+        <Parameter value1="0.179688000000000" value2="0.179688000000000" />
+    </Node>
+    <Node type="15" global="0" channel="-2" x="1995" y="16242" id="1273">
+        <Input id="1270" />
+        <Input id="1274" />
+    </Node>
+    <Node type="17" global="0" channel="-2" x="1834" y="16346" id="1274">
+        <Input id="31502" />
+        <Input id="1275" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1675" y="16406" id="1275">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.242187500000000" value2="0.242187500000000" />
+        <Parameter value1="0.820313000000000" value2="0.820313000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.820313000000000" value2="0.820313000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Mode value="112" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="1992" y="16471" id="1281">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.250000000000000" value2="0.250000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.710938000000000" value2="0.710938000000000" />
+        <Parameter value1="0.656250000000000" value2="0.656250000000000" />
+        <Mode value="240" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="2154" y="16491" id="1287">
+        <Input id="1281" />
+    </Node>
+    <Node type="36" global="1" channel="-2" x="3487" y="16390" id="1288">
+        <Input id="1294" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.890625000000000" value2="0.890625000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="32" global="1" channel="-2" x="3427" y="16289" id="1294">
+        <Input id="340" />
+        <Parameter value1="0.101563000000000" value2="0.101563000000000" />
+        <Mode value="3" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2897" y="5560" id="1296">
+        <Input id="506" />
+        <Parameter value1="-0.023437500000000" value2="-0.023437500000000" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="3242" y="5296" id="1297">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.757812500000000" value2="0.757812500000000" />
+        <Parameter value1="-0.187500000000000" value2="-0.187500000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="2800" y="5673" id="1304">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.476562500000000" value2="0.476562500000000" />
+        <Parameter value1="0.179687500000000" value2="0.179687500000000" />
+        <Parameter value1="0.257812500000000" value2="0.257812500000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="240" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3000" y="5723" id="1310">
+        <Input id="1304" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="2626" y="18781" id="1311">
+        <Input id="969" />
+        <Parameter value1="0.164062500000000" value2="0.164062500000000" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2786" y="18612" id="1312">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.562500000000000" value2="0.562500000000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" input="960" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="-0.257812500000000" value2="0.242187500000000" input="1311" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2784" y="18797" id="1319">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.250000000000000" value2="0.250000000000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" input="960" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="-0.148437500000000" value2="0.265625000000000" input="1311" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2783" y="18978" id="1326">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.375000000000000" value2="0.375000000000000" />
+        <Parameter value1="0.687500000000000" value2="0.687500000000000" input="960" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.125000000000000" value2="-0.187500000000000" input="1311" />
+        <Parameter value1="0.187500000000000" value2="0.187500000000000" />
+        <Mode value="2051" />
+    </Node>
+    <Node type="21" global="0" channel="-2" x="2608" y="19037" id="1333">
+        <Input id="1334" />
+        <Input id="1353" />
+        <Input id="1367" />
+        <Input id="1381" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2452" y="18426" id="1334">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1341" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2290" y="18424" id="1341">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1348" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="6" global="0" channel="-2" x="2128" y="18424" id="1348">
+        <Parameter value1="0.171875000000000" value2="0.171875000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.062500000000000" value2="0.062500000000000" />
+        <Mode value="0" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2451" y="18609" id="1353">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1360" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="-0.031250000000000" value2="-0.031250000000000" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2289" y="18607" id="1360">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1348" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2450" y="18788" id="1367">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1374" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.062500000000000" value2="0.062500000000000" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2288" y="18787" id="1374">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1348" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2449" y="18972" id="1381">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1388" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="-0.046875000000000" value2="0.093750000000000" />
+        <Parameter value1="0.156250000000000" value2="0.156250000000000" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="7" global="0" channel="-2" x="2287" y="18970" id="1388">
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="0.093750000000000" value2="0.093750000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" input="1348" />
+        <Mode value="2048" />
+    </Node>
+    <Node type="14" global="0" channel="-2" x="3295" y="18676" id="1395">
+        <Input id="1396" />
+        <Parameter value1="-0.453125000000000" value2="-0.453125000000000" />
+    </Node>
+    <Node type="5" global="0" channel="-2" x="3297" y="18481" id="1396">
+        <Input id="32767" />
+        <Input id="32767" />
+        <Parameter value1="0.328125000000000" value2="0.328125000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.000000000000000" value2="0.000000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="240" />
+    </Node>
+    <Node type="9" global="0" channel="-2" x="3296" y="18891" id="1402">
+        <Input id="390" />
+        <Parameter value1="0.707885742187500" value2="0.707885742187500" input="951" />
+        <Parameter value1="-0.187500000000000" value2="-0.187500000000000" input="1395" />
+        <Parameter value1="0.750000000000000" value2="0.750000000000000" />
+        <Mode value="260" />
+    </Node>
+    <Node type="27" global="0" channel="-2" x="3450" y="18706" id="1406">
+        <Input id="962" />
+    </Node>
+    <Node type="36" global="1" channel="-2" x="3837" y="18697" id="1407">
+        <Input id="1413" />
+        <Parameter value1="0.500000000000000" value2="0.500000000000000" />
+        <Parameter value1="0.843750000000000" value2="0.843750000000000" />
+        <Parameter value1="0.062500000000000" value2="0.062500000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+        <Parameter value1="1.000000000000000" value2="1.000000000000000" />
+    </Node>
+    <Node type="32" global="1" channel="-2" x="3838" y="18599" id="1413">
+        <Input id="375" />
+        <Parameter value1="0.101562500000000" value2="0.101562500000000" />
+        <Mode value="3" />
+    </Node>
+    <Constant type="64" global="1" x="2210" y="9110" id="31498" value1="1.062000000000000" value2="1.062000000000000" />
+    <Constant type="64" global="1" x="2065" y="10515" id="31499" value1="0.210937500000000" value2="0.210937500000000" />
+    <Constant type="64" global="1" x="2976" y="1817" id="31500" value1="0.695312500000000" value2="0.695312500000000" />
+    <Constant type="64" global="1" x="2065" y="2115" id="31501" value1="0.117187500000000" value2="0.117187500000000" />
+    <Constant type="64" global="1" x="1676" y="16328" id="31502" value1="0.125000000000000" value2="0.125000000000000" />
+    <Data>
+        <WaveFileReferences>
+            <WaveFile index="0" format="0" frequency="0" filename="" />
+            <WaveFile index="1" format="0" frequency="0" filename="" />
+            <WaveFile index="2" format="0" frequency="0" filename="" />
+            <WaveFile index="3" format="0" frequency="0" filename="" />
+            <WaveFile index="4" format="0" frequency="0" filename="Kick.wav" />
+            <WaveFile index="5" format="0" frequency="0" filename="Snare.wav" />
+            <WaveFile index="6" format="0" frequency="0" filename="" />
+            <WaveFile index="7" format="0" frequency="0" filename="" />
+            <WaveFile index="8" format="0" frequency="0" filename="" />
+            <WaveFile index="9" format="0" frequency="0" filename="" />
+            <WaveFile index="10" format="0" frequency="0" filename="" />
+            <WaveFile index="11" format="0" frequency="0" filename="" />
+            <WaveFile index="12" format="0" frequency="0" filename="" />
+            <WaveFile index="13" format="0" frequency="0" filename="" />
+            <WaveFile index="14" format="0" frequency="0" filename="" />
+            <WaveFile index="15" format="0" frequency="0" filename="" />
+            <WaveFile index="16" format="0" frequency="0" filename="" />
+            <WaveFile index="17" format="0" frequency="0" filename="" />
+            <WaveFile index="18" format="0" frequency="0" filename="" />
+            <WaveFile index="19" format="0" frequency="0" filename="" />
+            <WaveFile index="20" format="0" frequency="0" filename="" />
+            <WaveFile index="21" format="0" frequency="0" filename="" />
+            <WaveFile index="22" format="0" frequency="0" filename="" />
+            <WaveFile index="23" format="0" frequency="0" filename="" />
+            <WaveFile index="24" format="0" frequency="0" filename="" />
+            <WaveFile index="25" format="0" frequency="0" filename="" />
+            <WaveFile index="26" format="0" frequency="0" filename="" />
+            <WaveFile index="27" format="0" frequency="0" filename="" />
+            <WaveFile index="28" format="0" frequency="0" filename="" />
+            <WaveFile index="29" format="0" frequency="0" filename="" />
+            <WaveFile index="30" format="0" frequency="0" filename="" />
+            <WaveFile index="31" format="0" frequency="0" filename="" />
+        </WaveFileReferences>
+    </Data>
+</Patch>

@@ -1,0 +1,126 @@
+ENGINE = engine.a
+ENGINE_SRCS = \
+	src/engine/algebra/Matrix.cpp \
+	src/engine/algebra/Quaternion.cpp \
+	src/engine/algebra/Spline.cc \
+	src/engine/core/Camera.cpp \
+	src/engine/core/Debug.cpp \
+	src/engine/core/FileIO.cpp \
+	src/engine/core/Log.cpp \
+	src/engine/core/Node.cpp \
+	src/engine/core/msys_temp.cpp \
+	src/engine/mesh/Cube.cpp \
+	src/engine/mesh/Mesh.cpp \
+	src/engine/mesh/MeshPool.cpp \
+	src/engine/mesh/Revolution.cpp \
+	src/engine/mesh/RevolutionFunctions.cpp \
+	src/engine/noise/Gradient.cpp \
+	src/engine/noise/Hash.cpp \
+	src/engine/noise/LatticeNoise.cpp \
+	src/engine/noise/PerlinNoise.cpp \
+	src/engine/noise/Rand.cpp \
+	src/engine/noise/SimplexNoise.cpp \
+	src/engine/noise/SimplexValueNoise.cpp \
+	src/engine/noise/ValueNoise.cpp \
+	src/engine/runtime/FileWatcher.cpp \
+	src/engine/runtime/RuntimeCompiler.cpp \
+	src/engine/texture/Texture.cpp \
+	src/engine/timeline/Timeline.cpp \
+	src/engine/timeline/Variable.cpp \
+
+GFX = gfx.a
+GFX_SRCS = \
+	src/gfx/OpenGL/Extensions.cpp \
+	src/gfx/OpenGL/OpenGLLayer.cpp \
+        src/gfx/OpenGL/OpenGLTypeConversion.cpp \
+
+INCLUDE_PATHS = \
+	src \
+        thirdparty \
+
+LIBS = \
+	lib1 \
+	lib2 \
+
+LIB_PATHS = \
+	/lib/path/1 \
+	/lib/path/2 \
+
+CXXFLAGS = -std=c++11 -W -Wall $(INCLUDE_PATHS:%=-I%)
+DEBUG_CXXFLAGS = -DDEBUG -g3 -O0 -DENABLE_AUTOMATIC_FILE_RELOAD -DENABLE_LOG -DENABLE_LOGTWEAKVAL
+RELEASE_CXXFLAGS = -DNDEBUG -Oz
+LDFLAGS = $(LIBS:%=-l%) $(LIB_PATHS:%=-L%)
+DEPFLAGS = -MT $@ -MMD -MP -MF $*.d
+ARFLAGS = rcs
+
+CXX = clang
+# By default $(AR) is defined as ar
+# By default $(RM) is defined as rm -f
+ENGINE_OBJS = $(patsubst %.cc,%.o,$(patsubst %.cpp,%.o,$(ENGINE_SRCS)))
+ENGINE_DEPS = $(ENGINE_OBJS:.o=.d)
+GFX_OBJS = $(patsubst %.cc,%.o,$(patsubst %.cpp,%.o,$(GFX_SRCS)))
+GFX_DEPS = $(GFX_OBJS:.o=.d)
+
+.PHONY:	all
+all:	$(GFX)
+	@echo Compilation finished!
+
+test:
+	@echo Src: $(GFX_SRCS)
+	@echo Obj: $(GFX_OBJS)
+	@echo Deps: $(GFX_DEPS)
+
+.PHONY:	debug
+debug:	CXXFLAGS += $(DEBUG_CXXFLAGS)
+debug:	$(GFX)
+
+.PHONY:	release
+release:	CXXFLAGS += $(RELEASE_CXXFLAGS)
+release:	$(GFX)
+
+#
+# Target linking after compiling all dependencies.
+#
+$(ENGINE):	$(ENGINE_OBJS)
+	@echo
+	@echo Linking $@...
+	$(AR) $(ARFLAGS) $@ $^
+#	$(CXX) $(LDFLAGS) $^ -o $@
+
+$(GFX):	$(GFX_OBJS)
+	@echo
+	@echo Linking $@...
+	$(AR) $(ARFLAGS) $@ $^
+#	$(CXX) $(LDFLAGS) $^ -o $@
+
+# Individual compilation units compilation command.
+# Compilation will generate the .o and .d at the same time.
+%.o:	%.d
+%.o:	%.c
+	@echo $<
+	@$(CC) $(CFLAGS) $(DEPFLAGS) -c $< -o $@
+
+%.o:	%.cc
+	@echo $<
+	@$(CXX) $(CXXFLAGS) $(DEPFLAGS) -c $< -o $@
+
+%.o:	%.cpp
+	@echo $<
+	@$(CXX) $(CXXFLAGS) $(DEPFLAGS) -c $< -o $@
+
+# Dependencies files are a prerequisite to object files to trigger
+# recompilation. If the file doesn't exist, this rule does nothing but
+# will mark it as out of date and trigger a compilation.
+%.d:	;
+
+# Dependency rules for *.o
+# "-" prefix to avoid error message when no .d exist yet.
+-include $(DEPS)
+
+.PHONY:	clean
+clean:
+	@echo Cleaning...
+	@$(RM) $(ENGINE) $(GFX) $(ENGINE_OBJS) $(ENGINE_DEPS) $(GFX_OBJS) $(GFX_DEPS)
+
+.PHONY:	re
+re:	clean all

@@ -1,0 +1,8 @@
+#ifndef ALGEBRA_UTILS_HH
+#define ALGEBRA_UTILS_HH
+
+#define PI			3.14159265358979323846f
+#define DEG_TO_RAD	(PI / 180.f)
+#define RAD_TO_DEG	(180.f / PI)
+
+#endif // ALGEBRA_UTILS_HH
