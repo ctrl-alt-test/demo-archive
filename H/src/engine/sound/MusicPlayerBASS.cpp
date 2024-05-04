@@ -1,3 +1,5 @@
+#if ENABLE_PLAYER_BASS
+
 #include "MusicPlayerBASS.hh"
 
 #include "bass/c/bass.h"
@@ -85,3 +87,5 @@ void MusicPlayerBASS::Stop()
 {
 	BASS_ChannelStop(m_channelHandle);
 }
+
+#endif // ENABLE_PLAYER_BASS
