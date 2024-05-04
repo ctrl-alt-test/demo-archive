@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{14eec4a3-76c0-4e8c-a724-6f5e427f78ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{2c6b23ee-913c-48d4-9581-ff9e60bf2f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\core">
+      <UniqueIdentifier>{39572360-8c3b-40ff-ac5b-4b8e16d869ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\algebra">
+      <UniqueIdentifier>{236c78ba-1518-4f33-8616-a30d2b331379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\mesh">
+      <UniqueIdentifier>{dd0a925d-665d-4b6f-9e47-7d0d448216a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\noise">
+      <UniqueIdentifier>{b6371216-ea68-495f-808f-0267d76ce993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\container">
+      <UniqueIdentifier>{ab814af0-4a08-4847-be93-9fbf7ca8a329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\texture">
+      <UniqueIdentifier>{2d8198f6-5b72-42c9-81d7-3ea9cba66c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\timeline">
+      <UniqueIdentifier>{04868c26-963a-4df3-bc4b-f7fb3c512d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\runtime">
+      <UniqueIdentifier>{8b39a05b-299b-4d9b-aea3-c59d42c6c742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{d519e4b6-cfee-4a5a-bfcf-73d934806873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\tweakval">
+      <UniqueIdentifier>{09cd5513-0de1-4d32-8c4a-11186e7a27aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\sound">
+      <UniqueIdentifier>{50eb924d-3dbb-49b1-8b43-edc37ba208ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\render">
+      <UniqueIdentifier>{40ebba4f-e51f-4eed-af9e-05d3a5271b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\imgui">
+      <UniqueIdentifier>{6812c897-0f10-476f-bc9b-8bfe1be042ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\engine\algebra\Quaternion.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Quaternion.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Spline.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Vector2.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Vector2.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Vector3.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Vector3.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Vector4.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Vector4.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Interpolation.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Matrix.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Matrix.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\HashTable.hh">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\HashTable.hxx">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Queue.hh">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Utils.hh">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Algorithm.hh">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Algorithm.hxx">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Array.hh">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Array.hxx">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\Debug.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\Log.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\msys_temp.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\Mesh.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\MeshPool.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\Vertex.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\Cube.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\PerlinNoise.hh">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\Rand.hh">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\SimplexNoise.hh">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\SimplexValueNoise.hh">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\ValueNoise.hh">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\Gradient.hh">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\Hash.hh">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\LatticeNoise.hh">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Plane.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Ray.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Ray.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Plane.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\texture\Texture.hh">
+      <Filter>src\engine\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\texture\Texture.hxx">
+      <Filter>src\engine\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\timeline\Variable.hh">
+      <Filter>src\engine\timeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\Camera.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\timeline\Timeline.hh">
+      <Filter>src\engine\timeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\timeline\Anim.hh">
+      <Filter>src\engine\timeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\timeline\Anim.hxx">
+      <Filter>src\engine\timeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\Camera.hxx">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\Node.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\RigidTransform.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\RigidTransform.hxx">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\AABB3.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\AABB3.hxx">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\texture\ITextureBuilder.hh">
+      <Filter>src\engine\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\runtime\RuntimeCompiler.hh">
+      <Filter>src\engine\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\IMeshBuilder.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\runtime\FileWatcher.hh">
+      <Filter>src\engine\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\FileIO.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\tweakval\tweakval.h">
+      <Filter>thirdparty\tweakval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\RevolutionFunctions.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\Revolution.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\Light.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\sound\MusicPlayerBASS.hh">
+      <Filter>src\engine\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Utils.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\HeightMap.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\Marching.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\StringUtils.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\texture\Utils.hh">
+      <Filter>src\engine\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\algebra\Functions.hh">
+      <Filter>src\engine\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\timeline\Clock.hh">
+      <Filter>src\engine\timeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\noise\WorleyNoise.hh">
+      <Filter>src\engine\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\mesh\Utils.hh">
+      <Filter>src\engine\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\core\Settings.hh">
+      <Filter>src\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Dict.hh">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\container\Dict.hxx">
+      <Filter>src\engine\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\render\MeshGeometry.hh">
+      <Filter>src\engine\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\imgui_internal.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\stb_rect_pack.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\stb_textedit.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\stb_truetype.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\imconfig.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\thirdparty\imgui\imgui.h">
+      <Filter>thirdparty\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\engine\algebra\Spline.cc">
+      <Filter>src\engine\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\algebra\Matrix.cpp">
+      <Filter>src\engine\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\algebra\Quaternion.cpp">
+      <Filter>src\engine\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\Log.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\msys_temp.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\Debug.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\mesh\MeshPool.cpp">
+      <Filter>src\engine\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\mesh\Cube.cpp">
+      <Filter>src\engine\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\mesh\Mesh.cpp">
+      <Filter>src\engine\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\Rand.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\SimplexNoise.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\SimplexValueNoise.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\ValueNoise.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\Gradient.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\Hash.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\LatticeNoise.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\PerlinNoise.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\texture\Texture.cpp">
+      <Filter>src\engine\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\timeline\Variable.cpp">
+      <Filter>src\engine\timeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\Camera.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\Node.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\timeline\Timeline.cpp">
+      <Filter>src\engine\timeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\runtime\RuntimeCompiler.cpp">
+      <Filter>src\engine\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\runtime\FileWatcher.cpp">
+      <Filter>src\engine\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\FileIO.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\tweakval\tweakval.cpp">
+      <Filter>thirdparty\tweakval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\mesh\RevolutionFunctions.cpp">
+      <Filter>src\engine\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\mesh\Revolution.cpp">
+      <Filter>src\engine\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\sound\MusicPlayerBASS.cpp">
+      <Filter>src\engine\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\mesh\HeightMap.cpp">
+      <Filter>src\engine\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\mesh\Marching.cpp">
+      <Filter>src\engine\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\StringUtils.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\texture\Utils.cpp">
+      <Filter>src\engine\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\algebra\Functions.cpp">
+      <Filter>src\engine\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\timeline\Clock.cpp">
+      <Filter>src\engine\timeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\WorleyNoise.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\mesh\Utils.cpp">
+      <Filter>src\engine\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\noise\Utils.cpp">
+      <Filter>src\engine\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\RigidTransform.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\algebra\Vector3.cpp">
+      <Filter>src\engine\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\core\Settings.cpp">
+      <Filter>src\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\imgui\imgui_draw.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\imgui\imgui.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\imgui\imgui_demo.cpp">
+      <Filter>thirdparty\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\engine\noise\Utils.hh">
+      <Filter>src\engine\noise</Filter>
+    </None>
+  </ItemGroup>
+</Project>

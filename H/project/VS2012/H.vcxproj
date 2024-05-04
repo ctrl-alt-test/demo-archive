@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugRelease|Win32">
+      <Configuration>DebugRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9085F839-D813-4ACF-9D62-A750CB8DFF6B}</ProjectGuid>
+    <RootNamespace>H</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="allCommon.props" />
+    <Import Project="debugCommon.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="allCommon.props" />
+    <Import Project="releaseCommon.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'" Label="PropertySheets">
+    <Import Project="allCommon.props" />
+    <Import Project="releaseCommon.props" />
+    <Import Project="debugReleaseCommon.props" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile />
+    <Link>
+      <AdditionalDependencies>d3d9.lib;opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ClCompile>
+      <UndefinePreprocessorDefinitions />
+      <PreprocessorDefinitions>PROJECT_DIRECTORY=H/;ENABLE_PLAYER_64KLANG2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile />
+    <Link>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <ClCompile>
+      <UndefinePreprocessorDefinitions />
+      <PreprocessorDefinitions>PROJECT_DIRECTORY=H/;ENABLE_PLAYER_64KLANG2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <CallingConvention>FastCall</CallingConvention>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">
+    <ClCompile />
+    <Link>
+      <AdditionalDependencies>opengl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ClCompile>
+      <UndefinePreprocessorDefinitions />
+      <PreprocessorDefinitions>PROJECT_DIRECTORY=H/;ENABLE_PLAYER_64KLANG2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>FastCall</CallingConvention>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\H\BoatScene.cpp" />
+    <ClCompile Include="..\..\src\H\CityScene.cpp" />
+    <ClCompile Include="..\..\src\H\DescentScene.cpp" />
+    <ClCompile Include="..\..\src\H\EmergenceScene.cpp" />
+    <ClCompile Include="..\..\src\H\H.cpp" />
+    <ClCompile Include="..\..\src\H\InsideTempleScene.cpp" />
+    <ClCompile Include="..\..\src\H\LoadingBar.cpp" />
+    <ClCompile Include="..\..\src\H\main.cpp" />
+    <ClCompile Include="..\..\src\H\RuinsScene.cpp" />
+    <ClCompile Include="..\..\src\H\TheCity.cpp" />
+    <ClCompile Include="..\..\src\H\TheSubmersible.cpp" />
+    <ClCompile Include="..\..\src\H\ViaductScene.cpp" />
+    <ClCompile Include="..\..\src\meshes\Artemision.cpp" />
+    <ClCompile Include="..\..\src\meshes\CityFloor.cpp" />
+    <ClCompile Include="..\..\src\meshes\Fence.cpp" />
+    <ClCompile Include="..\..\src\meshes\Fountain.cpp" />
+    <ClCompile Include="..\..\src\meshes\GreekColumn.cpp" />
+    <ClCompile Include="..\..\src\meshes\Houses.cpp" />
+    <ClCompile Include="..\..\src\meshes\Lightning.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\meshes\Obelisk.cpp" />
+    <ClCompile Include="..\..\src\meshes\Parthenon.cpp" />
+    <ClCompile Include="..\..\src\meshes\Plant.cpp" />
+    <ClCompile Include="..\..\src\meshes\PoseidonSeated.cpp" />
+    <ClCompile Include="..\..\src\meshes\ResearchVessel.cpp" />
+    <ClCompile Include="..\..\src\meshes\Road.cpp" />
+    <ClCompile Include="..\..\src\meshes\Rocks.cpp" />
+    <ClCompile Include="..\..\src\meshes\RuinsFloor.cpp" />
+    <ClCompile Include="..\..\src\meshes\Seagull.cpp" />
+    <ClCompile Include="..\..\src\meshes\SeaSurface.cpp" />
+    <ClCompile Include="..\..\src\meshes\Stairs.cpp" />
+    <ClCompile Include="..\..\src\meshes\Statue.cpp" />
+    <ClCompile Include="..\..\src\meshes\Submersible.cpp" />
+    <ClCompile Include="..\..\src\meshes\Tholos.cpp" />
+    <ClCompile Include="..\..\src\meshes\Trident.cpp" />
+    <ClCompile Include="..\..\src\meshes\Viaduct.cpp" />
+    <ClCompile Include="..\..\src\platform\Win32Dialog.cpp" />
+    <ClCompile Include="..\..\src\platform\Win32Platform.cpp" />
+    <ClCompile Include="..\..\src\postprocessing\BilateralGaussianBlur.cpp" />
+    <ClCompile Include="..\..\src\postprocessing\CommonPostProcessing.cpp" />
+    <ClCompile Include="..\..\src\postprocessing\FinalCombine.cpp" />
+    <ClCompile Include="..\..\src\postprocessing\FXAA.cpp" />
+    <ClCompile Include="..\..\src\postprocessing\GaussianBlur.cpp" />
+    <ClCompile Include="..\..\src\postprocessing\StreakBlur.cpp" />
+    <ClCompile Include="..\..\src\textures\Cobbles.cpp" />
+    <ClCompile Include="..\..\src\textures\GreekColumn.cpp" />
+    <ClCompile Include="..\..\src\textures\Ground.cpp" />
+    <ClCompile Include="..\..\src\textures\Marble.cpp" />
+    <ClCompile Include="..\..\src\textures\OldStone.cpp" />
+    <ClCompile Include="..\..\src\textures\RandomTexture.cpp" />
+    <ClCompile Include="..\..\src\textures\ResearchVessel.cpp" />
+    <ClCompile Include="..\..\src\textures\SeaFoam.cpp" />
+    <ClCompile Include="..\..\src\tool\CameraLoader.cpp" />
+    <ClCompile Include="..\..\src\tool\CommonMaterial.cpp" />
+    <ClCompile Include="..\..\src\tool\FixedLightToolBox.cpp" />
+    <ClCompile Include="..\..\src\tool\ImGuiHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\mesh\MeshHelper.cpp" />
+    <ClCompile Include="..\..\src\tool\mesh\VertexDataP2dT.cpp" />
+    <ClCompile Include="..\..\src\tool\mesh\VertexDataPNT.cpp" />
+    <ClCompile Include="..\..\src\tool\mesh\VertexDataPNTT.cpp" />
+    <ClCompile Include="..\..\src\tool\MeshLoader.cpp" />
+    <ClCompile Include="..\..\src\tool\ParticleField.cpp" />
+    <ClCompile Include="..\..\src\tool\ProjectLoader.cpp" />
+    <ClCompile Include="..\..\src\tool\Quad.cpp" />
+    <ClCompile Include="..\..\src\tool\RenderList.cpp" />
+    <ClCompile Include="..\..\src\tool\Server.cpp" />
+    <ClCompile Include="..\..\src\tool\ShaderHelper.cpp" />
+    <ClCompile Include="..\..\src\tool\ShaderLoader.cpp" />
+    <ClCompile Include="..\..\src\tool\ShaderMinifier.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\SimpleSkyGradient.cpp" />
+    <ClCompile Include="..\..\src\tool\TextureHelper.cpp" />
+    <ClCompile Include="..\..\src\tool\TextureLoader.cpp" />
+    <ClCompile Include="..\..\src\tool\VolumetricLighting.cpp" />
+    <ClCompile Include="..\..\thirdparty\64klang2_Player\MusicPlayer64k2.cpp" />
+    <ClCompile Include="..\..\src\tool\DebugControls.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\tool\DebugGraphicLayer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\64klang2_Player\sample_t.cpp">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MaxSpeed</Optimization>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <InlineFunctionExpansion Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Default</InlineFunctionExpansion>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\64klang2_Player\Synth.cpp">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MaxSpeed</Optimization>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <InlineFunctionExpansion Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Default</InlineFunctionExpansion>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\64klang2_Player\SynthAllocator.cpp">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MaxSpeed</Optimization>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <InlineFunctionExpansion Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Default</InlineFunctionExpansion>
+    </ClCompile>
+    <ClCompile Include="..\..\thirdparty\64klang2_Player\SynthNode.cpp">
+      <TreatWarningAsError Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</TreatWarningAsError>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MaxSpeed</Optimization>
+      <BasicRuntimeChecks Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Default</BasicRuntimeChecks>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <InlineFunctionExpansion Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Default</InlineFunctionExpansion>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\H\BoatScene.hh" />
+    <ClInclude Include="..\..\src\H\CityScene.hh" />
+    <ClInclude Include="..\..\src\H\DescentScene.hh" />
+    <ClInclude Include="..\..\src\H\EmergenceScene.hh" />
+    <ClInclude Include="..\..\src\H\H.hh" />
+    <ClInclude Include="..\..\src\H\InsideTempleScene.hh" />
+    <ClInclude Include="..\..\src\H\LoadingBar.hh" />
+    <ClInclude Include="..\..\src\H\RuinsScene.hh" />
+    <ClInclude Include="..\..\src\H\TheCity.hh" />
+    <ClInclude Include="..\..\src\H\TheSubmersible.hh" />
+    <ClInclude Include="..\..\src\H\ViaductScene.hh" />
+    <ClInclude Include="..\..\src\meshes\Artemision.hh" />
+    <ClInclude Include="..\..\src\meshes\CityFloor.hh" />
+    <ClInclude Include="..\..\src\meshes\Fence.hh" />
+    <ClInclude Include="..\..\src\meshes\Fountain.hh" />
+    <ClInclude Include="..\..\src\meshes\GreekColumn.hh" />
+    <ClInclude Include="..\..\src\meshes\Houses.hh" />
+    <ClInclude Include="..\..\src\meshes\Lightning.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\src\meshes\Obelisk.hh" />
+    <ClInclude Include="..\..\src\meshes\Parthenon.hh" />
+    <ClInclude Include="..\..\src\meshes\Plant.hh" />
+    <ClInclude Include="..\..\src\meshes\PoseidonSeated.hh" />
+    <ClInclude Include="..\..\src\meshes\ResearchVessel.hh" />
+    <ClInclude Include="..\..\src\meshes\Road.hh" />
+    <ClInclude Include="..\..\src\meshes\Rocks.hh" />
+    <ClInclude Include="..\..\src\meshes\RuinsFloor.hh" />
+    <ClInclude Include="..\..\src\meshes\SeaSurface.hh" />
+    <ClInclude Include="..\..\src\meshes\Seagull.hh" />
+    <ClInclude Include="..\..\src\meshes\Stairs.hh" />
+    <ClInclude Include="..\..\src\meshes\Statue.hh" />
+    <ClInclude Include="..\..\src\meshes\Submersible.hh" />
+    <ClInclude Include="..\..\src\meshes\Tholos.hh" />
+    <ClInclude Include="..\..\src\meshes\Trident.hh" />
+    <ClInclude Include="..\..\src\meshes\Viaduct.hh" />
+    <ClInclude Include="..\..\src\platform\IPlatform.hh" />
+    <ClInclude Include="..\..\src\platform\KeyCodes.hh" />
+    <ClInclude Include="..\..\src\platform\Platform.hh" />
+    <ClInclude Include="..\..\src\platform\Win32Dialog.hh" />
+    <ClInclude Include="..\..\src\platform\Win32Platform.hh" />
+    <ClInclude Include="..\..\src\postprocessing\BilateralGaussianBlur.hh" />
+    <ClInclude Include="..\..\src\postprocessing\CommonPostProcessing.hh" />
+    <ClInclude Include="..\..\src\postprocessing\FXAA.hh" />
+    <ClInclude Include="..\..\src\postprocessing\FinalCombine.hh" />
+    <ClInclude Include="..\..\src\postprocessing\GaussianBlur.hh" />
+    <ClInclude Include="..\..\src\postprocessing\StreakBlur.hh" />
+    <ClInclude Include="..\..\src\textures\Cobbles.hh" />
+    <ClInclude Include="..\..\src\textures\GreekColumn.hh" />
+    <ClInclude Include="..\..\src\textures\Ground.hh" />
+    <ClInclude Include="..\..\src\textures\Marble.hh" />
+    <ClInclude Include="..\..\src\textures\OldStone.hh" />
+    <ClInclude Include="..\..\src\textures\RandomTexture.hh" />
+    <ClInclude Include="..\..\src\textures\ResearchVessel.hh" />
+    <ClInclude Include="..\..\src\textures\SeaFoam.hh" />
+    <ClInclude Include="..\..\src\tool\CameraLoader.hh" />
+    <ClInclude Include="..\..\src\tool\CommonMaterial.hh" />
+    <ClInclude Include="..\..\src\tool\FixedLightToolBox.hh" />
+    <ClInclude Include="..\..\src\tool\ImGuiHelper.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\IncludeUtils.hh" />
+    <ClInclude Include="..\..\src\tool\KeyboardAndMouseState.hh" />
+    <ClInclude Include="..\..\src\tool\MeshLoader.hh" />
+    <ClInclude Include="..\..\src\tool\ParticipatingMedium.hh" />
+    <ClInclude Include="..\..\src\tool\ParticleField.hh" />
+    <ClInclude Include="..\..\src\tool\ProjectLoader.hh" />
+    <ClInclude Include="..\..\src\tool\Quad.hh" />
+    <ClInclude Include="..\..\src\tool\RenderList.hh" />
+    <ClInclude Include="..\..\src\tool\Server.hh" />
+    <ClInclude Include="..\..\src\tool\ShaderHelper.hh" />
+    <ClInclude Include="..\..\src\tool\ShaderLoader.hh" />
+    <ClInclude Include="..\..\src\tool\ShaderUniformNames.hh" />
+    <ClInclude Include="..\..\src\tool\SimpleSkyGradient.hh" />
+    <ClInclude Include="..\..\src\tool\TextureHelper.hh" />
+    <ClInclude Include="..\..\src\tool\TextureLoader.hh" />
+    <ClInclude Include="..\..\src\tool\VolumetricLighting.hh" />
+    <ClInclude Include="..\..\src\tool\mesh\MeshHelper.hh" />
+    <ClInclude Include="..\..\src\tool\mesh\VertexDataP2dT.hh" />
+    <ClInclude Include="..\..\src\tool\mesh\VertexDataPNT.hh" />
+    <ClInclude Include="..\..\src\tool\mesh\VertexDataPNTT.hh" />
+    <ClInclude Include="..\..\thirdparty\64klang2_Player\64k2Patch.h" />
+    <ClInclude Include="..\..\thirdparty\64klang2_Player\64k2Song.h" />
+    <ClInclude Include="..\..\thirdparty\64klang2_Player\MusicPlayer64k2.hh" />
+    <ClInclude Include="..\..\thirdparty\64klang2_Player\Synth.h" />
+    <ClInclude Include="..\..\thirdparty\64klang2_Player\SynthAllocator.h" />
+    <ClInclude Include="..\..\thirdparty\64klang2_Player\SynthNode.h" />
+    <ClInclude Include="..\..\thirdparty\64klang2_Player\sample_t.h" />
+    <ClInclude Include="..\..\src\tool\DebugControls.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\DebugGraphicLayer.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\src\tool\ShaderMinifier.hh">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugRelease|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\thirdparty\RuntimeCompiledCPlusPlus\RuntimeCompiler\RuntimeCompiler_VS2012.vcxproj">
+      <Project>{790d95ed-c6e6-24e5-345b-37fb1e098082}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\thirdparty\RuntimeCompiledCPlusPlus\RuntimeObjectSystem\RuntimeObjectSystem_VS2012.vcxproj">
+      <Project>{fa4e24f1-885c-406b-89a8-436f28d090b2}</Project>
+    </ProjectReference>
+    <ProjectReference Include="Engine.vcxproj">
+      <Project>{f52a974b-592a-48ea-9952-c460a779f25c}</Project>
+    </ProjectReference>
+    <ProjectReference Include="GraphicLayer.vcxproj">
+      <Project>{6850d231-f9f9-47a3-af93-f90d201d5976}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)' == 'Release'">
+    <ProjectReference Include="..\..\thirdparty\tlibc\tlibc.vcxproj">
+      <Project>{4e15033f-45f2-4765-926e-e86660ef6c85}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)' == 'DebugRelease'">
+    <ProjectReference Include="..\..\thirdparty\tlibc\tlibc.vcxproj">
+      <Project>{4e15033f-45f2-4765-926e-e86660ef6c85}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

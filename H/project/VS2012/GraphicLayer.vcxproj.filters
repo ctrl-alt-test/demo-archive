@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{311b7b5b-a9bc-4a9d-aede-0219f29b0be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gfx">
+      <UniqueIdentifier>{945368de-2081-4fdf-a9b0-aa3f60e01b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gfx\OpenGL">
+      <UniqueIdentifier>{87419346-0c50-494d-a796-74f85ce17535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gfx\DirectX">
+      <UniqueIdentifier>{d7bb70c6-60f6-4e9f-9cfc-b7ae8dbfefa9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\gfx\OpenGL\OpenGLTypeConversion.cpp">
+      <Filter>src\gfx\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\OpenGL\Extensions.cpp">
+      <Filter>src\gfx\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\OpenGL\OpenGLLayer.cpp">
+      <Filter>src\gfx\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\DirectX\DirectXLayer.cpp">
+      <Filter>src\gfx\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\IGraphicLayer.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\ResourceID.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\ShadingParameters.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gfx\Helpers.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\gfx\IGraphicLayer.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\ResourceID.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\TextureFormat.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\VertexAttribute.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\BlendingMode.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\DrawArea.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\OpenGL\OpenGLLayer.hh">
+      <Filter>src\gfx\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\OpenGL\OpenGLTypeConversion.hh">
+      <Filter>src\gfx\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\OpenGL\Extensions.hh">
+      <Filter>src\gfx\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\OpenGL\glext.h">
+      <Filter>src\gfx\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\DirectX\DirectXLayer.hh">
+      <Filter>src\gfx\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\Geometry.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\Uniform.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\Uniform.hxx">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\RasterTests.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\ShadingParameters.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\PolygonMode.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\IGraphicLayerImplementations.hh">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gfx\OpenGL\wglext.h">
+      <Filter>src\gfx\OpenGL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
